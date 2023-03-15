@@ -1,0 +1,165 @@
+.home {
+    display: grid;
+    place-items: center;
+    text-align: center;
+
+}
+
+.home-content h1 {
+    font-size: 7rem;
+    font-weight: 100;
+    margin-bottom: 2%;
+    margin-top: 2%;
+
+}
+
+.home-content p {
+    font-size: 1.6rem;
+    font-weight: 100;
+
+}
+
+
+.btn_initial {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: var(--main-color);
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 2rem;
+    color: var(--bg-color);
+    font-weight: 300;
+    transition: .5s ease;
+    margin-top: 5%;
+    position: relative;
+    z-index: 2;
+}
+
+.btn_initial:hover {
+    box-shadow: none;
+
+}
+
+
+.bike-img {
+    margin-left: 100px;
+    position: absolute;
+    animation-name: aparecer_desaparecer_bike;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    width: fit-content;
+    z-index: 1;
+}
+.car-img {
+    margin-left: 100px;
+    position: absolute;
+    animation-name: aparecer_desaparecer_car;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    width: fit-content;
+    z-index: 1;
+}
+.fam-img {
+    margin-left: 100px;
+    position: absolute;
+    animation-name: aparecer_desaparecer_fam;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    width: fit-content;
+    z-index: 1;
+}
+.house-img {
+    margin-left: 100px;
+    position: absolute;
+    animation-name: aparecer_desaparecer_house;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    width: fit-content;
+    z-index: 1;
+}
+.ind-img {
+    margin-left: 100px;
+    position: absolute;
+   animation-name: aparecer_desaparecer_ind;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    width: fit-content;
+    z-index: 1;
+}
+.inha-img {
+    margin-left: 100px;
+    position: absolute;
+    top: 1;
+    left: 0;
+    animation-name: aparecer_desaparecer_inha;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    width: fit-content;
+    z-index: 1;
+}
+.travel-img {
+    margin-left: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+   animation-name: aparecer_desaparecer_travel;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    width: fit-content;
+    z-index: 1;
+}
+
+
+@keyframes aparecer_desaparecer_bike {
+    0% {opacity: 0;}
+    14% {opacity: 1;}
+    28% {opacity: 0}
+    100% {opacity: 0}
+}
+
+@keyframes aparecer_desaparecer_car {
+    0% {opacity: 0;}
+    14% {opacity: 0;}
+    28% {opacity: 1;}
+    42% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+@keyframes aparecer_desaparecer_fam {
+    0% {opacity: 0;}
+    28% {opacity: 0;}
+    42% {opacity: 1;}
+    56% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+@keyframes aparecer_desaparecer_house {
+    0% {opacity: 0;}
+    42% {opacity: 0;}
+    56% {opacity: 1;}
+    70% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+@keyframes aparecer_desaparecer_ind {
+    0% {opacity: 0;}
+    56% {opacity: 0;}
+    70% {opacity: 1;}
+    84% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+@keyframes aparecer_desaparecer_inha {
+    0% {opacity: 0;}
+    70% {opacity: 0;}
+    84% {opacity: 1;}
+    100% {opacity: 0;}
+
+}
+
+@keyframes aparecer_desaparecer_travel {
+    0% {opacity: 0;}
+    84% {opacity: 0;}
+    98% {opacity: 1;}
+    100% {opacity: 0;}
+}

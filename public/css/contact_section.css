@@ -1,0 +1,68 @@
+
+.contact h2 {
+    margin-bottom: 4rem;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 70rem;
+}
+
+.contact p {
+    font-size: 1.6rem;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.contact form {
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact form .input-box {
+    justify-content: space-between;
+
+}
+
+.contact form .input-box input,
+.contact form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--second-bg-color);
+    border-radius: 0.8rem;
+    margin: .7rem 0;
+}
+
+.contact form textarea {
+    resize: none;
+}
+
+.contact form .btn {
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.btn_contact {
+    display: inline-block;
+    padding: 2rem 3rem;
+    background: var(--main-color);
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 2rem;
+    color: var(--bg-color);
+    font-weight: 300;
+    transition: .5s ease;
+    margin-top: 5%;
+}
+
+.btn_contact:hover {
+    box-shadow: none;
+}
+
+@media (min-width: 540px) {
+   .sm\:w-half {
+     width: 50%;
+   }
+}
