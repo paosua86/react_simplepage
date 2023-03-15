@@ -1,0 +1,74 @@
+@font-face {
+    font-family: made_mirage;
+    src:url(./MADE_Mirage_Regular.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 0;
+    outline: 0;
+    scroll-behavior: smooth;
+    font-family: made_mirage;
+}
+
+:root {
+    --bg-color: #FFFFFF;
+    --second-bg-color: #F2F2F2;
+    --text-color: #4A4A4A;
+    --main-color: #006B6B;
+    --secondary-color: #001C73;
+    --button-color: #006B6B;
+    --animation-duration_all: 20s;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+
+}
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+    cursor: default;
+    width: 220px;
+}
+
+h2 {
+    margin-bottom: 6rem;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 200;
+  }
+
+p {
+    font-size: 1.6rem;
+    font-weight: 100;
+}

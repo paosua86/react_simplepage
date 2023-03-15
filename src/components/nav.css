@@ -1,0 +1,31 @@
+
+.navbar a {
+    position: relative;
+    font-size:1.7rem;
+    color:var(--text-color);
+    margin-right: 4rem;
+    transition: .3s;
+  }
+
+  .navbar a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: var(--secondary-color);
+    transition: width 0.3s ease;
+  }
+
+  .navbar a:hover::before,
+  .navbar a.active::before {
+    width: 100%;
+    color: var(--secondary-color);
+  }
+
+  #menu-icon {
+    font-size: 3.6rem;
+    color: var(--text-color);
+    display: none;
+}
