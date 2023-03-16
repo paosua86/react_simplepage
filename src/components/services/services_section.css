@@ -9,9 +9,13 @@
 .services-container {
     display: flex;
     justify-content: center;
-    align-items: stretch;
+    align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+
 }
 
 .services-container .services-box {
@@ -21,8 +25,10 @@
     border-radius: 2rem;
     text-align: center;
     align-items: center;
+    justify-content: center;
     border: .2rem solid var(--bg-color);
     transition: .5s ease;
+    height: 220px;
 }
 
 .services-container .services-box:hover {
@@ -60,6 +66,7 @@
     border: .2rem solid var(--bg-color);
     transition: .3s ease;
     position: relative;
+    max-width: 250px;
 }
 
 .service_layer {
@@ -77,6 +84,7 @@
     color: var(--second-bg-color);
     border-bottom: 10px;
     text-align: center;
+    transition: .7s ease;
     align-items: center;
 }
 

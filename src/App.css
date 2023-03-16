@@ -32,11 +32,10 @@ html {
 body {
     background: var(--bg-color);
     color: var(--text-color);
-
 }
 
 section {
-    min-height: 100vh;
+    min-height: 80vh;
     padding: 10rem 9% 2rem;
 }
 
@@ -62,13 +61,10 @@ section {
 }
 
 h2 {
+    margin-top: 2rem;
     margin-bottom: 6rem;
     text-align: center;
     font-size: 4rem;
     font-weight: 200;
   }
 
-p {
-    font-size: 1.6rem;
-    font-weight: 100;
-}

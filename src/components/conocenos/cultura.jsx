@@ -4,7 +4,7 @@ import './conocenos_section.css';
 class Cultura extends React.Component {
   render() {
     return (
-      <section>
+      <section className="cultura">
         <h2 class="heading">Nuestra Cultura</h2>
         <p>La cultura es un componente crítico de lo que hace que Asegbrok sea único. Trabajamos como un equipo comprometido con la colaboración, la integridad y el enfoque centrado en el cliente para ofrecer soluciones excepcionales.</p>
         <div class="cultura-container">

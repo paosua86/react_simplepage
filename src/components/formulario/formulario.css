@@ -1,9 +1,12 @@
-
+.contact {
+    background: var(--second-bg-color);
+}
 .contact h2 {
     margin-bottom: 4rem;
     text-align: center;
     font-size: 4rem;
     font-weight: 70rem;
+
 }
 
 .contact p {
@@ -17,6 +20,7 @@
     margin: 1rem auto;
     text-align: center;
     margin-bottom: 3rem;
+
 }
 
 .contact form .input-box {
@@ -30,7 +34,7 @@
     padding: 1.5rem;
     font-size: 1.6rem;
     color: var(--text-color);
-    background: var(--second-bg-color);
+    background: var(--bg-color);
     border-radius: 0.8rem;
     margin: .7rem 0;
 }

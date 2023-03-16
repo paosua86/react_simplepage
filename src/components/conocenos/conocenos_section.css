@@ -1,11 +1,4 @@
 
-.conocenos h2 {
-    margin-bottom: 4rem;
-    text-align: center;
-    font-size: 4rem;
-    font-weight: 200;
-}
-
 .cultura-container {
     display: flex;
     justify-content: center;
@@ -13,12 +6,18 @@
     flex-wrap: wrap;
     gap: 2rem;
 }
+.cultura{
+  display: grid;
+  place-items: center;
+  text-align: center;
 
-.conocenos p {
-    font-size: 1.6rem;
-    font-weight: 100;
-    text-align: center;
-    margin-bottom: 3%;
+}
+.cultura p {
+  font-size: 1.6rem;
+  font-weight: 100;
+  margin-bottom: 5rem;
+  max-width: 80%;
+  text-align: center;
 }
 
 .tweet-carousel {
@@ -27,13 +26,13 @@
     overflow: hidden;
     display: flex;
     align-items: center;
+    margin-top: 7rem;
   }
 
   .tweet-carousel:after {
     content: "";
     width: 1px;
     height: 100%;
-    margin-right: -1px;
   }
 
   .tweet-card {
@@ -45,8 +44,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 1rem;
-    margin-right: 1rem;
+    padding: 1.5rem;
+    margin-right: 1.5rem;
+    max-width: 250px;
+    max-height: 150px;
   }
 
   .tweet-header {
@@ -75,6 +76,7 @@
 
   .tweet-body {
     flex-grow: 1;
+    font-size: 1rem;
   }
 
   .tweet-footer {
@@ -114,7 +116,7 @@
 
 
 .cultura-container .cultura-box {
-    flex: 1 1 20rem;
+    flex: 1 1 10rem;
     background: var(--second-bg-color);
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
@@ -122,7 +124,11 @@
     border: .2rem solid var(--bg-color);
     transition: .5s ease;
     align-items: stretch;
-
+    display: grid;
+    place-items: center;
+    text-align: center;
+    height: 150px;
+    max-width: 220px;
 }
 
 .cultura-container .cultura-box:hover {
@@ -149,7 +155,10 @@
     justify-content: space-between;
     align-items: stretch;
     flex-wrap: wrap;
-    padding: 50px;
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+
 }
 
 .imagenes_oscuras img {
