@@ -1,6 +1,7 @@
 .contact {
     background: var(--second-bg-color);
 }
+
 .contact h2 {
     margin-bottom: 4rem;
     text-align: center;
@@ -15,6 +16,7 @@
     text-align: center;
     margin-bottom: 3%;
 }
+
 .contact form {
     max-width: 70rem;
     margin: 1rem auto;
@@ -48,6 +50,24 @@
     cursor: pointer;
 }
 
+.contactandmap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contactandmap form {
+    order: 1;
+    flex-basis: calc(50% - 20px);
+    max-width: 400px;
+}
+
+.contactandmap .mapouter {
+    order: 2;
+    flex-basis: calc(50% - 20px);
+}
+
 .btn_contact {
     display: inline-block;
     padding: 2rem 3rem;
@@ -66,7 +86,16 @@
 }
 
 @media (min-width: 540px) {
-   .sm\:w-half {
-     width: 50%;
-   }
+    .sm\:w-half {
+        width: 50%;
+    }
 }
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 600px;
+    width: 400px;
+}
+
+

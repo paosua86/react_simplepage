@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './components/header/header';
 import Services from './components/services/services';
-import Formulario from './components/formulario/formulario';
+import { Formulario } from './components/formulario/formulario';
 import ClientesAso from './components/conocenos/clientes_asoci';
 import Cultura from './components/conocenos/cultura';
 import Testimonios from './components/conocenos/testimonios';
