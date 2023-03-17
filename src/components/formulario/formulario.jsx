@@ -1,12 +1,22 @@
 import React from 'react';
 import './formulario.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 class Formulario extends React.Component {
+  componentDidMount() {
+    AOS.init({
+      duration: 1200,
+      easing: 'ease-in-sine',
+    });
+    AOS.refresh();
+  }
+
   render() {
     return (
       <section className="contact" id="contact">
-        <h2 className="heading">Contáctanos</h2>
-        <p>A nuestro equipo le encantará atender tu solicitud</p>
+        <h2 data-aos="fade-right" className="heading">Contáctanos</h2>
+        <p data-aos="fade-left">A nuestro equipo le encantará atender tu solicitud</p>
         <div className="contactandmap">
           <div className="mapouter">
             <div className="gmap_canvas">
@@ -39,7 +49,7 @@ class Formulario extends React.Component {
               rows="10"
               placeholder="Tu mensaje"
             ></textarea>
-            <input
+            <input data-aos="zoom-in-up"
               type="submit"
               value="Enviar Mensaje"
               className="btn_contact"

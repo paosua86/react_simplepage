@@ -1,14 +1,25 @@
 import React from 'react';
 import './home_animation.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 class Home extends React.Component {
-  render() {
-    return (
+  componentDidMount() {
+    AOS.init({
+      duration: 1200,
+      easing: 'ease-in-sine',
+      delay: 50,
+    });
+    AOS.refresh();
+}
+
+render() {
+return (
       <section className="home" id="home">
         <div className="home-content">
-          <h1>CUIDADO LO QUE AMAS<br/>HOY, MAÑANA Y SIEMPRE</h1>
-          <p>Productos Innovadores. Presencia Regional. Operación Local</p>
-          <a href="#contact" className="btn_initial">Cotiza tu seguro</a>
+          <h1 data-aos="fade-up">CUIDADO LO QUE AMAS<br/>HOY, MAÑANA Y SIEMPRE</h1>
+          <p data-aos="fade-left">Productos Innovadores. Presencia Regional. Operación Local</p>
+          <a data-aos="zoom-in-up" href="#contact" className="btn_initial">Cotiza tu seguro</a>
         </div>
         <img className="bike-img" src="images/bike.svg" alt="" />
         <img className="car-img" src="images/car.svg" alt="" />

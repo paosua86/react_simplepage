@@ -9,6 +9,7 @@ import Testimonios from './components/conocenos/testimonios';
 import Home from './components/home/home';
 import Footer from './components/footer/footer';
 import Nav from './components/nav';
+import Cambio from './components/cambio/cambio';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <ClientesAso />
         <Cultura />
         <Services />
+        <Cambio />
         <Formulario />
       </main>
       <Footer />

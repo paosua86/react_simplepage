@@ -1,17 +1,18 @@
-
 .cultura-container {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    flex-wrap: wrap;
-    gap: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
-.cultura{
+
+.cultura {
   display: grid;
   place-items: center;
   text-align: center;
 
 }
+
 .cultura p {
   font-size: 1.6rem;
   font-weight: 100;
@@ -21,23 +22,45 @@
 }
 
 .tweet-carousel {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    margin-top: 7rem;
+  /* position: relative;
+  width: 100%;
+  height: 250px;
+  background-color: #f2f2f2;
+  padding: 16px;
+  overflow: hidden; */
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background-color: #f2f2f2;
+  padding: 16px;
+  overflow: hidden;
+}
+
+.tweeter-middle {
+  /* display: flex;
+  position: absolute;
+  left: 0; */
+  display: flex;
+  position: absolute;
+  left: 0;
+  animation-name: animate;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes animate {
+  from {
+    transform: translateX(0);
   }
 
-  .tweet-carousel:after {
-    content: "";
-    width: 1px;
-    height: 100%;
+  to {
+    transform: translateX(calc(-100% - 1.5rem));
   }
+}
 
-  .tweet-card {
-    width: 320px;
-    height: 200px;
+.tweet-card {
+
     background-color: white;
     border: 1px solid #e6e6e6;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -46,133 +69,114 @@
     justify-content: space-between;
     padding: 1.5rem;
     margin-right: 1.5rem;
-    max-width: 250px;
-    max-height: 150px;
-  }
-
-  .tweet-header {
     display: flex;
-    align-items: center;
-  }
+    width: 250px;
+    justify-content: space-around;
 
-  .tweet-header img {
-    width: 48px;
-    height: 48px;
-    margin-right: 1rem;
-    border-radius: 50%;
-  }
+}
 
-  .tweet-username {
-    font-size: 1.1rem;
-    font-weight: bold;
-    margin: 0;
-  }
+.tweet-carousel:hover .tweeter-middle{
+  animation-play-state: paused;
+}
 
-  .tweet-handle {
-    font-size: 0.8rem;
-    margin: 0;
-    color: gray;
-  }
+.tweet-header {
+  display: flex;
+  align-items: center;
+}
 
-  .tweet-body {
-    flex-grow: 1;
-    font-size: 1rem;
-  }
+.tweet-header img {
+  width: 48px;
+  height: 48px;
+  margin-right: 1rem;
+  border-radius: 50%;
+}
 
-  .tweet-footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 0.8rem;
-    color: gray;
-  }
+.tweet-username {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0;
+}
 
-  .tweet-footer i {
-    font-size: 1.2rem;
-    margin-left: 0.5rem;
-    cursor: pointer;
-  }
+.tweet-handle {
+  font-size: 1.2rem;
+  margin: 0;
+  color: gray;
+}
 
-  .tweet-card:last-child {
-    margin-right: 0;
-  }
+.tweet-body {
+  flex-grow: 1;
+  font-size: 1rem;
+}
 
-  @keyframes tweet-animation {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(calc(-100% - 1px));
-    }
-  }
 
-  .tweet-carousel:hover .tweet-card {
-    animation-play-state: paused;
-  }
 
-  .tweet-carousel .tweet-card {
-    animation: tweet-animation 10s linear infinite;
-  }
+.tweet-carousel:hover .tweet-card {
+  animation-play-state: paused;
+}
+
+.tweet-carousel .tweet-card {
+  animation: tweet-animation 10s linear infinite;
+}
 
 
 .cultura-container .cultura-box {
-    flex: 1 1 10rem;
-    background: var(--second-bg-color);
-    padding: 3rem 2rem 4rem;
-    border-radius: 2rem;
-    text-align: center;
-    border: .2rem solid var(--bg-color);
-    transition: .5s ease;
-    align-items: stretch;
-    display: grid;
-    place-items: center;
-    text-align: center;
-    height: 150px;
-    max-width: 220px;
+  flex: 1 1 10rem;
+  background: var(--second-bg-color);
+  padding: 3rem 2rem 4rem;
+  border-radius: 2rem;
+  text-align: center;
+  border: .2rem solid var(--bg-color);
+  transition: .5s ease;
+  align-items: stretch;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  height: 150px;
+  max-width: 220px;
 }
 
 .cultura-container .cultura-box:hover {
-    border-color: var(--main-color);
-    transform: scale(1.01);
+  border-color: var(--main-color);
+  transform: scale(1.01);
 }
 
 .cultura-box i {
-    font-size: 3.5rem;
-    color: var(--main-color);
+  font-size: 3.5rem;
+  color: var(--main-color);
 }
 
 .cultura-box h3 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .cultura-box p {
-    font-size: 1rem;
-    margin-top: 2%;
+  font-size: 1rem;
+  margin-top: 2%;
 }
 
 .imagenes_oscuras {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    flex-wrap: wrap;
-    padding: 40px;
-    max-width: 900px;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+  padding: 40px;
+  max-width: 900px;
+  margin: 0 auto;
 
 }
 
 .imagenes_oscuras img {
-    height: 70px;
-    border: none;
-    border-radius: 7px;
-    box-shadow: 4px 7px 7px 0px rgb(145, 145, 145);
-    cursor: pointer;
-    margin: 10px;
-    filter: grayscale(1);
-    transition: 400ms;
+  height: 70px;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 4px 7px 7px 0px rgb(145, 145, 145);
+  cursor: pointer;
+  margin: 10px;
+  filter: grayscale(1);
+  transition: 400ms;
 }
 
 .imagenes_oscuras img:hover {
-    filter: none;
-    transform: scale(1.03);
+  filter: none;
+  transform: scale(1.03);
 }

@@ -1,13 +1,23 @@
 import React from "react";
 import "./services_section.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 class Services extends React.Component {
+  componentDidMount() {
+    AOS.init({
+      duration: 1200,
+      easing: 'ease-in-sine',
+    });
+    AOS.refresh();
+  }
+
   render() {
     return (
       <section className="services" id="services">
-        <h2 className="heading">Variedad de seguros para cada necesidad</h2>
+        <h2 data-aos="fade-right" className="heading">Variedad de seguros para cada necesidad</h2>
         <div className="services-container">
-          <div className="services-box">
+          <div data-aos="zoom-in-up"  className="services-box">
             <i className="bx bx-user"></i>
             <h3>Individuales</h3>
             <p>Viajes, vida y gastos médicos mayores</p>
@@ -15,7 +25,7 @@ class Services extends React.Component {
               Cotiza
             </a>
           </div>
-          <div className="services-box">
+          <div data-aos="zoom-in-up" data-aos-delay="300" className="services-box">
             <i className="bx bx-check-shield"></i>
             <h3>Pymes</h3>
             <p>Cubre el patrimonio de empresas pequeñas y medianas.</p>
@@ -23,7 +33,7 @@ class Services extends React.Component {
               Cotiza
             </a>
           </div>
-          <div className="services-box">
+          <div data-aos="zoom-in-up" data-aos-delay="600" className="services-box">
             <i className="bx bx-id-card"></i>
             <h3>Corporativos</h3>
             <p>Tu compañía y tu personal siempre protegidos</p>
@@ -31,7 +41,7 @@ class Services extends React.Component {
               Cotiza
             </a>
           </div>
-          <div className="services-container-spec">
+          <div data-aos="zoom-in-down" data-aos-delay="600" className="services-container-spec">
             <div className="services-box-spec">
               <i className="bx bx-car"></i>
               <h3>Vehículos</h3>

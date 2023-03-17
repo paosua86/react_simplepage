@@ -1,12 +1,23 @@
 import React from 'react';
 import './conocenos_section.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 class ClientesAso extends React.Component {
+  componentDidMount() {
+    AOS.init({
+      duration: 1200,
+      easing: 'ease-in-sine',
+      delay: 50,
+    });
+    AOS.refresh();
+  }
+
   render() {
     return (
       <>
-        <h2 class="heading">Más clientes</h2>
-        <div class="imagenes_oscuras">
+        <h2 data-aos="fade-right" class="heading">Más clientes</h2>
+        <div data-aos="zoom-in-up" class="imagenes_oscuras">
           <img src="clients/4.png" alt="" />
           <img src="clients/13.png" alt="" />
           <img src="clients/7.png" alt="" />
@@ -25,8 +36,8 @@ class ClientesAso extends React.Component {
           <img src="clients/12.png" alt="" />
           <img src="clients/3.png" alt="" />
         </div>
-        <h2 class="heading">Socios estratégicos</h2>
-        <div class="imagenes_oscuras">
+        <h2 data-aos="fade-left" class="heading">Socios estratégicos</h2>
+        <div data-aos="zoom-in-up" class="imagenes_oscuras">
           <img src="asociados/11.png" alt="" />
           <img src="asociados/19.png" alt="" />
           <img src="asociados/8.png" alt="" />
