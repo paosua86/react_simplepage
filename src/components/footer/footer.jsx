@@ -22,13 +22,13 @@ class Footer extends React.Component {
         <div className="social-box">
           <div>Síguenos</div>
           <div className="social-media">
-            <a href="https://www.facebook.com/Asegbrok/" target="_blank" className="social-icon">
+            <a href="https://www.facebook.com/Asegbrok/" target="_blank" rel="noreferrer" className="social-icon">
               <i className="bx bxl-facebook"></i>
             </a>
-            <a href="https://www.linkedin.com/in/maria-jose-ubilluz-5336a13a/" target="_blank" className="social-icon">
+            <a href="https://www.linkedin.com/in/maria-jose-ubilluz-5336a13a/" target="_blank" rel="noreferrer" className="social-icon">
               <i className="bx bxl-linkedin"></i>
             </a>
-            <a href="https://www.instagram.com/Asegbrok/" target="_blank" className="social-icon">
+            <a href="https://www.instagram.com/Asegbrok/" target="_blank" rel="noreferrer" className="social-icon">
               <i className="bx bxl-instagram"></i>
             </a>
           </div>

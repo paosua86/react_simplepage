@@ -21,7 +21,7 @@ class Services extends React.Component {
             <i className="bx bx-user"></i>
             <h3>Individuales</h3>
             <p>Viajes, vida y gastos médicos mayores</p>
-            <a href="#" className="btn-services">
+            <a href="/individuales" className="btn-services">
               Cotiza
             </a>
           </div>
@@ -29,7 +29,7 @@ class Services extends React.Component {
             <i className="bx bx-check-shield"></i>
             <h3>Pymes</h3>
             <p>Cubre el patrimonio de empresas pequeñas y medianas.</p>
-            <a href="#" className="btn-services">
+            <a href="/pymes" className="btn-services">
               Cotiza
             </a>
           </div>
@@ -37,7 +37,7 @@ class Services extends React.Component {
             <i className="bx bx-id-card"></i>
             <h3>Corporativos</h3>
             <p>Tu compañía y tu personal siempre protegidos</p>
-            <a href="#" className="btn-services">
+            <a href="/corporativo" className="btn-services">
               Cotiza
             </a>
           </div>
@@ -46,7 +46,7 @@ class Services extends React.Component {
               <i className="bx bx-car"></i>
               <h3>Vehículos</h3>
               <p>Viajes, vida y gastos médicos mayores</p>
-              <a className="service_layer" href="#">
+              <a className="service_layer" href="/vehiculo">
                 Cotiza
               </a>
             </div>
@@ -54,7 +54,7 @@ class Services extends React.Component {
               <i className="bx bx-plus-medical"></i>
               <h3>Atención Médica</h3>
               <p>Diseñado para cubrir el patrimonio</p>
-              <a className="service_layer" href="#">
+              <a className="service_layer" href="/atencionmedica">
                 Cotiza
               </a>
             </div>
@@ -62,7 +62,7 @@ class Services extends React.Component {
               <i className="bx bx-body"></i>
               <h3>Accidentes Personales</h3>
               <p>Tu compañía y tu personal siempre protegidos</p>
-              <a className="service_layer" href="#">
+              <a className="service_layer" href="/accidentespersonales">
                 Cotiza
               </a>
             </div>
@@ -70,7 +70,7 @@ class Services extends React.Component {
               <i className="bx bx-briefcase-alt"></i>
               <h3>Viajes</h3>
               <p>Tu compañía y tu personal siempre protegidos</p>
-              <a className="service_layer" href="#">
+              <a className="service_layer" href="/viajes">
                 Cotiza
               </a>
             </div>
@@ -78,7 +78,7 @@ class Services extends React.Component {
               <i className="bx bx-home-smile"></i>
               <h3>Hogar</h3>
               <p>Tu compañía y tu personal siempre protegidos</p>
-              <a className="service_layer" href="#">
+              <a className="service_layer" href="/hogar">
                 Cotiza
               </a>
             </div>

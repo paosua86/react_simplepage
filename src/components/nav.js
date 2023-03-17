@@ -19,7 +19,7 @@ class Nav extends React.Component {
         <i className="bx bx-menu" id="menu-icon"></i>
         <nav className="navbar">
           <a
-            href="#home"
+            href="/"
             className={activeLink === "home" ? "active" : ""}
             onClick={this.handleClick}
           >
@@ -34,7 +34,7 @@ class Nav extends React.Component {
           </a>
           <a
             href="#testimonios"
-            className={activeLink === "conocenos" ? "active" : ""}
+            className={activeLink === "testimonios" ? "active" : ""}
             onClick={this.handleClick}
           >
             Conócenos
@@ -47,8 +47,8 @@ class Nav extends React.Component {
             Reporta tu siniestro
           </a>
           <a
-            href="#howden"
-            className={activeLink === "howden" ? "active" : ""}
+            href="/howden"
+            className={activeLink === "/howden" ? "active" : ""}
             onClick={this.handleClick}
           >
             Howden
