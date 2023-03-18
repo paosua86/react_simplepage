@@ -4,20 +4,31 @@ import "./nav.css";
 class Nav extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { activeLink: "home" };
+    this.state = {
+      activeLink: "home",
+      menuActive: false
+    };
   }
 
   handleClick = (event) => {
-    const linkId = event.target.href.split("#")[1];
-    this.setState({ activeLink: linkId });
+    const linkId = event.currentTarget.href.split("#")[1];
+    this.setState({ activeLink: linkId, menuActive: false });
+  };
+
+  handleMenu = () => {
+    this.setState((prevState) => ({ menuActive: !prevState.menuActive }));
   };
 
   render() {
-    const { activeLink } = this.state;
+    const { activeLink, menuActive } = this.state;
     return (
       <header className="header">
-        <i className="bx bx-menu" id="menu-icon"></i>
-        <nav className="navbar">
+        <i
+          className="bx bx-menu"
+          id="menu-icon"
+          onClick={this.handleMenu}
+        ></i>
+        <nav className={`navbar ${menuActive ? "active" : ""}`}>
           <a
             href="/"
             className={activeLink === "home" ? "active" : ""}

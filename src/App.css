@@ -22,10 +22,11 @@
     --secondary-color: #001C73;
     --button-color: #006B6B;
     --animation-duration_all: 20s;
+    font-size: 62.5%;
 }
 
 html {
-    font-size: 62.5%;
+
     overflow-x: hidden;
 }
 
@@ -68,3 +69,23 @@ h2 {
     font-weight: 200;
   }
 
+  @media only screen and (max-width: 768px) {
+    .header {
+      padding: 1.5rem 5%;
+    }
+
+    .logo {
+      font-size: 2rem;
+      width: 180px;
+    }
+
+    h2 {
+      font-size: 3.5rem;
+      margin-top: 1.5rem;
+      margin-bottom: 4rem;
+    }
+
+    section {
+      padding: 6rem 5% 2rem;
+    }
+  }
