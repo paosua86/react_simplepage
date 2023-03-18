@@ -1,3 +1,11 @@
+.bike-img-estatico {
+  margin-left: 100px;
+  position: absolute;
+  width: fit-content;
+  z-index: 1;
+  top: 0;
+}
+
 .individual h2 {
   margin-top: 10%;
   margin-bottom: 6rem;
@@ -64,4 +72,11 @@
 .opcionesindividual {
   display: flex;
   flex-direction: row;
+  z-index: 2;
+}
+.opcionesindividual .atencionMedica-box {
+  margin: 100px 70px 100px 100px;
+}
+.opcionesindividual .atencionMedica-box p {
+  font-size: 2rem;
 }
