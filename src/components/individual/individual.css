@@ -1,0 +1,67 @@
+.individual h2 {
+  margin-top: 10%;
+  margin-bottom: 6rem;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 200;
+}
+
+.individual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.individual p {
+  font-size: 1.6rem;
+  font-weight: 100;
+  margin-bottom: 3%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.description-service p {
+  max-width: 60%;
+}
+
+.individual-container {
+  display: grid;
+  justify-content: center;
+  flex-direction: row;
+  align-items: right;
+  justify-content: center;
+  text-align: center;
+}
+
+.individual-container .individual-box {
+  display: grid;
+  flex-direction: row;
+  grid-template-columns: auto 1fr; /* icono junto */
+
+}
+
+.individual-container .individual-box:hover {
+  border-color: var(--main-color);
+  transform: translate(5px, 12px);
+}
+
+.individual-box i {
+  font-size: 3.5rem;
+  color: var(--main-color);
+  margin-bottom: 1rem;
+  margin-right: 4rem;
+  }
+
+.individual-box p {
+  font-size: 1.5rem;
+  margin-top: 2.5%;
+}
+
+.opcionesindividual {
+  display: flex;
+  flex-direction: row;
+}

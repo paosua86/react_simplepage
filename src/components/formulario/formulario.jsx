@@ -15,7 +15,7 @@ class Formulario extends React.Component {
   render() {
     return (
       <section className="contact" id="contact">
-        <h2 data-aos="fade-right" className="heading">Contáctanos</h2>
+        <h2 data-aos="fade-right" className="heading">Contáctanos y Cotiza</h2>
         <p data-aos="fade-left">A nuestro equipo le encantará atender tu solicitud</p>
         <div className="contactandmap">
           <div className="mapouter">
@@ -41,6 +41,7 @@ class Formulario extends React.Component {
             <div className="input-box">
               <input type="email" placeholder="Email" />
               <input type="number" placeholder="Teléfono celular" />
+              <input type="text" placeholder="Tipo de seguro/s" />
             </div>
             <textarea
               name=""

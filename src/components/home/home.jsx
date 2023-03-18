@@ -17,7 +17,7 @@ render() {
 return (
       <section className="home" id="home">
         <div className="home-content">
-          <h1 data-aos="fade-up">CUIDADO LO QUE AMAS<br/>HOY, MAÑANA Y SIEMPRE</h1>
+          <h1 data-aos="fade-up">CUIDANDO LO QUE AMAS<br/>HOY, MAÑANA Y SIEMPRE</h1>
           <p data-aos="fade-left">Productos Innovadores. Presencia Regional. Operación Local</p>
           <a data-aos="zoom-in-up" href="#contact" className="btn_initial">Cotiza tu seguro</a>
         </div>

@@ -26,14 +26,14 @@ class Nav extends React.Component {
             Home
           </a>
           <a
-            href="#services"
+            href="/#services"
             className={activeLink === "services" ? "active" : ""}
             onClick={this.handleClick}
           >
             Servicios
           </a>
           <a
-            href="#testimonios"
+            href="/#testimonios"
             className={activeLink === "testimonios" ? "active" : ""}
             onClick={this.handleClick}
           >

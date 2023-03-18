@@ -1,0 +1,102 @@
+.viaje-img-estatico {
+  margin-left: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: fit-content;
+  z-index: 1;
+}
+
+.viajes h2 {
+  margin-top: 10%;
+  margin-bottom: 6rem;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 200;
+}
+
+.viajes h3 {
+  margin-top: 5%;
+  margin-bottom: 7%;
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 200;
+}
+
+h4 {
+  text-align: left;
+  font-size: 2.5rem;
+  font-weight: 200;
+  margin: 20px 10px 10px 0;
+}
+
+.viajes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.viajes p {
+  font-size: 1.6rem;
+  font-weight: 100;
+  margin-bottom: 3%;
+
+  display: flex;
+  text-align: center;
+}
+
+.viajes .description-service p {
+  max-width: 70%;
+  justify-content: center;
+
+}
+
+.viajes-container {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.viajes-container-nosotros p {
+  display: grid;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.viajes-container .viajes-box {
+  display: flex;
+  flex-direction: row;
+  margin: 30px 0 0 0;
+}
+
+.viajes-container .viajes-box:hover {
+  color: var(--secondary-color);
+}
+
+.viajes-container-nosotros .viajes-box:hover {
+  color: var(--secondary-color);
+}
+
+.viajes-box i {
+  font-size: 3.5rem;
+  color: var(--main-color);
+  margin-left: 8%;
+  margin-right: 10px;
+
+}
+
+.viajes-box span {
+  font-weight: 300;
+}
+
+.viajes-box p {
+  font-size: 1.5rem;
+  margin-top: 0.8%;
+  text-align: left;
+}

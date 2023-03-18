@@ -21,66 +21,50 @@ class Services extends React.Component {
             <i className="bx bx-user"></i>
             <h3>Individuales</h3>
             <p>Viajes, vida y gastos médicos mayores</p>
-            <a href="/individuales" className="btn-services">
-              Cotiza
-            </a>
+            <a href="/individuales" className="btn-services">Conoce más</a>
           </div>
           <div data-aos="zoom-in-up" data-aos-delay="300" className="services-box">
             <i className="bx bx-check-shield"></i>
             <h3>Pymes</h3>
             <p>Cubre el patrimonio de empresas pequeñas y medianas.</p>
-            <a href="/pymes" className="btn-services">
-              Cotiza
-            </a>
+            <a href="/pymes" className="btn-services">Conoce más</a>
           </div>
           <div data-aos="zoom-in-up" data-aos-delay="600" className="services-box">
             <i className="bx bx-id-card"></i>
             <h3>Corporativos</h3>
             <p>Tu compañía y tu personal siempre protegidos</p>
-            <a href="/corporativo" className="btn-services">
-              Cotiza
-            </a>
+            <a href="/corporativo" className="btn-services">Conoce más</a>
           </div>
           <div data-aos="zoom-in-down" data-aos-delay="600" className="services-container-spec">
             <div className="services-box-spec">
               <i className="bx bx-car"></i>
               <h3>Vehículos</h3>
               <p>Viajes, vida y gastos médicos mayores</p>
-              <a className="service_layer" href="/vehiculo">
-                Cotiza
-              </a>
+              <a className="service_layer" href="/vehiculo">Conoce más</a>
             </div>
             <div className="services-box-spec">
               <i className="bx bx-plus-medical"></i>
               <h3>Atención Médica</h3>
               <p>Diseñado para cubrir el patrimonio</p>
-              <a className="service_layer" href="/atencionmedica">
-                Cotiza
-              </a>
+              <a className="service_layer" href="/atencionmedica">Conoce más</a>
             </div>
             <div className="services-box-spec">
               <i className="bx bx-body"></i>
               <h3>Accidentes Personales</h3>
               <p>Tu compañía y tu personal siempre protegidos</p>
-              <a className="service_layer" href="/accidentespersonales">
-                Cotiza
-              </a>
+              <a className="service_layer" href="/accidentespersonales">Conoce más</a>
             </div>
             <div className="services-box-spec">
               <i className="bx bx-briefcase-alt"></i>
               <h3>Viajes</h3>
               <p>Tu compañía y tu personal siempre protegidos</p>
-              <a className="service_layer" href="/viajes">
-                Cotiza
-              </a>
+              <a className="service_layer" href="/viajes">Conoce más</a>
             </div>
             <div className="services-box-spec">
               <i className="bx bx-home-smile"></i>
               <h3>Hogar</h3>
               <p>Tu compañía y tu personal siempre protegidos</p>
-              <a className="service_layer" href="/hogar">
-                Cotiza
-              </a>
+              <a className="service_layer" href="/hogar">Conoce más</a>
             </div>
           </div>
         </div>

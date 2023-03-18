@@ -1,0 +1,139 @@
+.ind-img-estatico {
+  margin-left: 100px;
+  position: absolute;
+  width: fit-content;
+  z-index: 1;
+  top: 0;
+  right: 0;
+}
+
+.corporativo h2 {
+  margin-top: 10%;
+  margin-bottom: 6rem;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 200;
+}
+.corporativo a {
+  z-index: 2;
+}
+
+.corporativo h3 {
+
+  margin-bottom: 7%;
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 200;
+  padding-top: 200px; /* ajusta el valor de acuerdo al tamaño de tu navbar */
+  margin-top: -100px;
+}
+
+h4 {
+  text-align: left;
+  font-size: 2.5rem;
+  font-weight: 200;
+  margin: 20px 10px 10px 0;
+}
+
+.corporativo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.corporativo p {
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 100;
+  margin-bottom: 3%;
+  text-align: center;
+  align-items: center;
+}
+
+.corporativo .description-corporativo p {
+  max-width: 60%;
+  justify-content: center;
+
+}
+
+.corporativo-container-nosotros {
+  display: flex;
+  align-items: center;
+  align-content: space-evenly;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.corporativo-container-nosotros .corporativo-box {
+  display: flex;
+  align-items: center;
+  align-content: space-evenly;
+  flex-direction: row;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.corporativo-container-nosotros {
+  max-width: 70%;
+}
+
+.corporativo-container-nosotros p {
+  display: grid;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.corporativo-container .corporativo-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.corporativo-negocios .corporativo-box:hover,
+.corporativo-container-motivos .corporativo-box:hover,
+.corporativo-container-beneficios .corporativo-box:hover {
+  color: var(--secondary-color);
+}
+
+
+
+.corporativo-box i {
+  font-size: 3.5rem;
+  color: var(--main-color);
+  margin-left: 8%;
+  margin-right: 10px;
+}
+
+
+.corporativo-container-motivos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 700px;
+
+}
+
+.corporativo-container-motivos .corporativo-box {
+  max-width: 100px;
+  margin: 40px auto 40px auto;
+}
+
+.corporativo-container-beneficios {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.corporativo-container-beneficios .corporativo-box {
+  max-width: 100px;
+  margin: 40px auto 40px auto;
+}
+.corporativo-container-beneficios .corporativo-box i {
+  margin: 40px 0 40px 0;
+}
