@@ -1,6 +1,6 @@
 @font-face {
     font-family: made_mirage;
-    src:url(./MADE_Mirage_Regular.otf);
+    src: url(./MADE_Mirage_Regular.otf);
 }
 
 * {
@@ -26,7 +26,6 @@
 }
 
 html {
-
     overflow-x: hidden;
 }
 
@@ -35,7 +34,7 @@ body {
     color: var(--text-color);
 }
 
-section {
+.section {
     min-height: 80vh;
     padding: 10rem 9% 2rem;
 }
@@ -67,25 +66,118 @@ h2 {
     text-align: center;
     font-size: 4rem;
     font-weight: 200;
-  }
+}
 
-  @media only screen and (max-width: 768px) {
+body,
+footer {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width: 320px) {
     .header {
-      padding: 1.5rem 5%;
+        padding: 1.5rem 5%;
     }
 
     .logo {
-      font-size: 2rem;
-      width: 180px;
+        font-size: 1.8rem;
+        width: 150px;
     }
 
     h2 {
-      font-size: 3.5rem;
-      margin-top: 1.5rem;
-      margin-bottom: 4rem;
+        font-size: 2.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 4rem;
+    }
+
+    .section {
+        padding: 4rem 5% 2rem;
+    }
+
+    body,
+    footer {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+    .header {
+        padding: 1.5rem 5%;
+    }
+
+    .logo {
+        font-size: 2rem;
+        width: 180px;
+    }
+
+    h2 {
+        font-size: 3rem;
+        margin-top: 1.5rem;
+        margin-bottom: 4rem;
+    }
+
+    .section {
+        padding: 5rem 5% 2rem;
+    }
+
+    body,
+    footer {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .header {
+        padding: 1.5rem 5%;
+    }
+
+    .logo {
+        font-size: 2rem;
+        width: 180px;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 4rem;
+    }
+
+    .section {
+        padding: 6rem 5% 2rem;
+    }
+
+    body,
+    footer {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .header {
+        padding: 1.5rem 5%;
+    }
+
+    .logo {
+        font-size: 2rem;
+        width: 180px;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 4rem;
     }
 
     section {
-      padding: 6rem 5% 2rem;
+        padding: 6rem 5% 2rem;
     }
-  }
+
+    body,
+    footer {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+}
