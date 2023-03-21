@@ -22,11 +22,12 @@
     --secondary-color: #001C73;
     --button-color: #006B6B;
     --animation-duration_all: 20s;
-    font-size: 62.5%;
+    font-size: 70%;
 }
 
 html {
     overflow-x: hidden;
+    max-width: 100%;
 }
 
 body {
@@ -61,37 +62,90 @@ body {
 }
 
 h2 {
-    margin-top: 2rem;
+    padding-top: 100px; /* ajusta el valor de acuerdo al tamaño de tu navbar */
     margin-bottom: 6rem;
     text-align: center;
     font-size: 4rem;
     font-weight: 200;
 }
 
-body,
-footer {
-    max-width: 100%;
-    overflow-x: hidden;
-}
 
-@media only screen and (max-width: 320px) {
+@media (max-width: 3000px) {
     .header {
-        padding: 1.5rem 5%;
+        padding: 1.8rem 5%;
     }
 
     .logo {
-        font-size: 1.8rem;
-        width: 150px;
+        font-size: 2.2rem;
+        width: 180px;
     }
 
     h2 {
-        font-size: 2.5rem;
+        font-size: 3.7rem;
         margin-top: 1.5rem;
         margin-bottom: 4rem;
     }
 
     .section {
-        padding: 4rem 5% 2rem;
+        padding: 6rem 5% 2rem;
+    }
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    footer {
+        width: 100%;
+        overflow-x: hidden;
+    }
+}
+@media (max-width: 1024px) {
+    .header {
+        padding: 1.5rem 5%;
+    }
+
+    .logo {
+        font-size: 2rem;
+        width: 180px;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 4rem;
+    }
+
+    .section {
+        padding: 6rem 5% 2rem;
+    }
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    footer {
+        width: 100%;
+        overflow-x: hidden;
+    }
+}
+@media (max-width: 768px) {
+    .header {
+        padding: 1.5rem 5%;
+    }
+
+    .logo {
+        font-size: 2rem;
+        width: 180px;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 4rem;
+    }
+
+    .section {
+        padding: 6rem 5% 2rem;
     }
 
     body,
@@ -100,8 +154,7 @@ footer {
         overflow-x: hidden;
     }
 }
-
-@media only screen and (min-width: 321px) and (max-width: 480px) {
+@media (max-width: 480px) {
     .header {
         padding: 1.5rem 5%;
     }
@@ -128,24 +181,24 @@ footer {
     }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media (max-width: 320px) {
     .header {
         padding: 1.5rem 5%;
     }
 
     .logo {
-        font-size: 2rem;
-        width: 180px;
+        font-size: 1.8rem;
+        width: 150px;
     }
 
     h2 {
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         margin-top: 1.5rem;
         margin-bottom: 4rem;
     }
 
     .section {
-        padding: 6rem 5% 2rem;
+        padding: 4rem 5% 2rem;
     }
 
     body,
@@ -155,29 +208,3 @@ footer {
     }
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-    .header {
-        padding: 1.5rem 5%;
-    }
-
-    .logo {
-        font-size: 2rem;
-        width: 180px;
-    }
-
-    h2 {
-        font-size: 3.5rem;
-        margin-top: 1.5rem;
-        margin-bottom: 4rem;
-    }
-
-    section {
-        padding: 6rem 5% 2rem;
-    }
-
-    body,
-    footer {
-        max-width: 100%;
-        overflow-x: hidden;
-    }
-}

@@ -24,10 +24,8 @@ class Formulario extends React.Component {
                 className="iframe1"
                 title="Google Maps"
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d18978.782233116148!2d-78.48332974353386!3d-0.1851598048406027!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59a7d8b57ab7f%3A0xd3ccda6a0da4fb19!2sShyris%20Center%20Alvarezconst%20S.A.!5e0!3m2!1sen!2sus!4v1678999546349!5m2!1sen!2sus"
-                width="800"
-                height="600"
-                style={{ border: 0 }}
-                allowFullScreen=""
+                width="400rem"
+                height="500rem"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>

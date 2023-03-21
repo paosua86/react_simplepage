@@ -5,19 +5,21 @@ class Footer extends React.Component {
   render() {
     return (
       <footer className="footer">
-        <div className="footer-info1">
-          <div>Horario :</div>
-          <div>Dirección :</div>
-          <div>Teléfono :</div>
-          <div>Celular :</div>
-          <div>Email :</div>
-        </div>
-        <div className="footer-info2">
-          <div>8:30 - 17h30</div>
-          <div>Shyris N34 - 152 y Holanda, Edificio Shyris Center, Piso 4</div>
-          <div>+ 593 2 4799 917</div>
-          <div>+ 593 998 049 134</div>
-          <div>info@asegbrok.com.ec</div>
+        <div className="first_part">
+          <div className="footer-info1">
+            <div>Horario :</div>
+            <div>Dirección :</div>
+            <div>Teléfono :</div>
+            <div>Celular :</div>
+            <div>Email :</div>
+          </div>
+          <div className="footer-info2">
+            <div>8:30 - 17h30</div>
+            <div>Shyris N34 - 152 y Holanda, Edificio Shyris Center, Piso 4</div>
+            <div>+ 593 2 4799 917</div>
+            <div>+ 593 998 049 134</div>
+            <div>info@asegbrok.com.ec</div>
+          </div>
         </div>
         <div className="social-box">
           <div>Síguenos</div>

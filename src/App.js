@@ -29,7 +29,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<>
-            <Home />
+            {/* <Home /> */}
             <Testimonios />
             <ClientesAso />
             <Cultura />
@@ -78,6 +78,11 @@ function App() {
           </>} />
           <Route path="/hogar" element={<>
             <Hogar />
+            <Formulario />
+            <Cambio />
+          </>} />
+          <Route path="/howden" element={<>
+
             <Formulario />
             <Cambio />
           </>} />

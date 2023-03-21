@@ -18,22 +18,22 @@ class Cultura extends React.Component {
         <h2 data-aos="fade-right" class="heading">Nuestra Cultura</h2>
         <p data-aos="fade-left">La cultura es un componente crítico de lo que hace que Asegbrok sea único. Trabajamos como un equipo comprometido con la colaboración, la integridad y el enfoque centrado en el cliente para ofrecer soluciones excepcionales.</p>
         <div class="cultura-container">
-          <div data-aos="zoom-in-up" class="cultura-box">
+          <div class="cultura-box">
             <i class='bx bx-time'></i>
             <h3>Gestión</h3>
             <p>Asesoramiento y soporte técnico en el día a día</p>
           </div>
-          <div data-aos="zoom-in-up" data-aos-delay="300" class="cultura-box">
+          <div class="cultura-box">
             <i class='bx bx-briefcase-alt-2'></i>
             <h3>Trabajo</h3>
             <p>Gestión de riesgos y revisión de pólizas</p>
           </div>
-          <div data-aos="zoom-in-up" data-aos-delay="600" class="cultura-box">
+          <div class="cultura-box">
             <i class='bx bx-happy'></i>
             <h3>Soporte</h3>
             <p>Gestión de reclamos y asistencia en incidentes importantes</p>
           </div>
-          <div data-aos="zoom-in-up" data-aos-delay="900" class="cultura-box">
+          <div class="cultura-box">
             <i class='bx bx-phone-call'></i>
             <h3>Entrega</h3>
             <p>Soluciones innovadoras con las mejores coberturas y tasas</p>

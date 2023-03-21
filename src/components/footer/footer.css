@@ -12,6 +12,11 @@
   justify-content: space-between;
 }
 
+.first_part {
+  display: flex;
+  flex-direction: row;
+}
+
 .social-box {
   display: flex;
   justify-content: left;
@@ -76,7 +81,7 @@
   margin-bottom: 3rem;
   flex-basis: 40%;
   flex-grow: 1;
-
+  font-size: 1.2rem;
 }
 
 .footer div {
@@ -84,5 +89,29 @@
 
 }
 
+.footer {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
+
+@media (max-width: 768px) {
+  .footer-info2 {
+    font-size: 1.3rem;
+  }
+  .footer {
+    flex-direction: column;
+  }
+}
+@media (max-width: 480px) {
+  .footer-info2 {
+    font-size: 1.3rem;
+  }
+
+}
+@media (max-width: 320px) {
+  .footer-info2 {
+    font-size: 1.105rem;
+  }
+}
 

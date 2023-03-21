@@ -4,31 +4,34 @@
     text-align: center;
     font-size: 4rem;
     font-weight: 200;
+    padding-top: 17rem;
 }
 
 .services-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: stretch;
     flex-wrap: wrap;
     gap: 2rem;
     max-width: 800px;
     margin: 0 auto;
     margin-bottom: 70px;
+    align-items: stretch;
+    height: fit-content;
+
 
 }
 
 .services-container .services-box {
     flex: 1 1 20rem;
     background: var(--second-bg-color);
-    padding: 3rem 2rem 4rem;
+    padding: 2rem 1rem 0rem 1rem;
     border-radius: 2rem;
     text-align: center;
-    align-items: center;
-    justify-content: center;
     border: .2rem solid var(--bg-color);
     transition: .5s ease;
-    height: 220px;
+    height: fit-content;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 0 auto;
 }
 
 .services-container .services-box:hover {
@@ -46,7 +49,7 @@
 }
 
 .services-box p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-top: 2%;
 }
 
@@ -103,7 +106,7 @@
 }
 
 .services-box-spec p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-top: 2%;
 }
 

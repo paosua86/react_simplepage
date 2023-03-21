@@ -1,22 +1,21 @@
-
 .whatsapp_btn {
-    position: fixed;
-    bottom: 3rem;
-    right: 3rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 5rem;
-    height: 5rem;
-    background-color: green;
-    border-radius: 50%;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    z-index: 9999;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  height: 5rem;
+  background-color: green;
+  border-radius: 50%;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  bottom: 2rem;
+  right: 2rem;
 }
 
-  .whatsapp_btn img {
-    width: 70%;
-    height: 70%;
-  }
+.whatsapp_btn img {
+  max-width: 100%; /* Hace que la imagen sea responsive */
+  height: auto; /* Mantiene la proporción de aspecto de la imagen */
 
+}
 
