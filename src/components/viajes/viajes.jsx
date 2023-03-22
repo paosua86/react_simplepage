@@ -20,69 +20,53 @@ class Viajes extends React.Component {
           SEGUROS PARA VIAJES
         </h2>
         <p class="description-service" data-aos="fade-left">
-          Durante tu viaje podrías tener un plan que solucione estos riesgos. Es momento sólo de disfrutar.
+          Durante tu viaje podrías tener un plan que solucione estos riesgos. Somos parte del equipaje.<br></br>
+          Si viajas por placer, negocios o estudios te ofrecemos los mejores beneficios y coberturas para tu viaje.
         </p>
-        <div className="viajes-container">
-          <div class="viajes-box">
-            <i className="bx bx-check-circle"></i>
-            <p>Enfermedades</p>
-          </div>
-          <div className="viajes-box">
-            <i className="bx bx-check-circle"></i>
-            <p>Accidentes</p>
-          </div>
-          <div className="viajes-box">
-            <i className="bx bx-check-circle"></i>
-            <p>Emergencias</p>
-          </div>
-          <div className="viajes-box">
-            <i className="bx bx-check-circle"></i>
-            <p>Cumplir con requisitos consulares</p>
-          </div>
-          <div className="viajes-box">
-            <i className="bx bx-check-circle"></i>
-            <p>Perdida de equipaje</p>
-          </div>
-          <div className="viajes-box">
-            <i className="bx bx-check-circle"></i>
-            <p>
-              Robo y asalto
-            </p>
-          </div>
-        </div>
+
         <h3 className="heading">VENTAJAS Y NOVEDADES AL CONTRATAR CON NOSOTROS</h3>
         <div className="viajes-container-nosotros">
           <div className="viajes-box">
-            <h4>xxx</h4>
-            <p>xxx
-            </p>
+            <h4>Sin límite de edad</h4>
           </div>
           <div className="viajes-box">
-            <h4>xxx</h4>
-            <p>xxx
-            </p>
+            <h4>Bajo Costo</h4>
           </div>
           <div className="viajes-box">
-            <h4>xxx</h4>
-            <p>xxx
-            </p>
+            <h4>Amplias Coberturas</h4>
           </div>
           <div className="viajes-box">
-            <h4>xxx</h4>
-            <p>xxx
-            </p>
+            <h4>Agilidad en rembolsos</h4>
           </div>
           <div className="viajes-box">
-            <h4>xxx</h4>
-            <p>xxx
-            </p>
-          </div>
-          <div className="viajes-box">
-            <h4>xxx</h4>
-            <p>xxx
-            </p>
+            <h4>Gastos médicos por accidentes y/o enfermedades</h4>
           </div>
         </div>
+
+        <h3 className="heading">SERVICIOS COMPLEMENTARIOS</h3>
+        <div className="viajes-container">
+          <div class="viajes-box">
+            <i className="bx bx-check-circle"></i>
+            <p>Asistencia por extravío y/o robo de documentos</p>
+          </div>
+          <div className="viajes-box">
+            <i className="bx bx-check-circle"></i>
+            <p>Asesoría legal para honorarios de abogados y/o adelanto de fianzas</p>
+          </div>
+          <div className="viajes-box">
+            <i className="bx bx-check-circle"></i>
+            <p>Pérdida de equipaje hasta el límite del plan contratado a partir de 72 horas de extraviado</p>
+          </div>
+          <div className="viajes-box">
+            <i className="bx bx-check-circle"></i>
+            <p>Repatriación de herido o enfermo por recomendación médica</p>
+          </div>
+          <div className="viajes-box">
+            <i className="bx bx-check-circle"></i>
+            <p>Repatriación en caso de fallecimiento</p>
+          </div>
+        </div>
+
       </section>
     );
   }
