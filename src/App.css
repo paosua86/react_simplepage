@@ -69,6 +69,10 @@ h2 {
     font-weight: 200;
 }
 
+[data-aos="zoom-in-up"],
+[data-aos="fade-up"] {
+    animation-play-state: paused;
+  }
 
 @media (max-width: 3000px) {
     .header {

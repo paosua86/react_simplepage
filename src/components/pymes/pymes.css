@@ -41,12 +41,13 @@ h4 {
 }
 
 .pymes p {
-  display: flex;
+  display: grid;
+  place-items: center;
   font-size: 1.6rem;
   font-weight: 100;
   margin-bottom: 3%;
-  text-align: center;
-  align-items: center;
+
+  max-width: 80%;
 }
 
 .pymes .description-pymes p {
@@ -120,12 +121,14 @@ h4 {
   margin: 40px auto 40px auto;
 }
 
+
 .pymes-container-beneficios {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+
 
 .pymes-container-beneficios .pymes-box {
   max-width: 100px;
