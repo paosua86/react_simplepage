@@ -15,8 +15,8 @@ class Individual extends React.Component {
   render() {
     return (
       <section className="individual" id="individual">
-        <img data-aos="fade-right" className="bike-img-estatico" src="images/bike.svg" alt="" />
         <h2 data-aos="fade-right" className="heading">SEGUROS INDIVIDUALES</h2>
+        <img data-aos="fade-right" className="bike-img-estatico" src="images/bike.svg" alt="" />
         <p class="description-service" data-aos="fade-left">No podemos garantizar tu vida ... pero SÍ la tranquilidad económica de quienes amas</p>
 
         <div class="opcionesindividual">
@@ -70,3 +70,4 @@ class Individual extends React.Component {
 }
 
 export default Individual;
+

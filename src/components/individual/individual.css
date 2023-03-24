@@ -1,9 +1,12 @@
 .bike-img-estatico {
-  margin-left: 100px;
-  position: absolute;
-  width: fit-content;
+  left: 5%;
+  top: 5%;
+  transform: translate(-80%, -50%);
   z-index: 1;
-  top: 0;
+  width: 80vw;
+  height: 80vh;
+  overflow: hidden;
+  position: absolute;
 }
 
 .individual h2 {
@@ -12,6 +15,7 @@
   text-align: center;
   font-size: 4rem;
   font-weight: 200;
+  z-index: 2;
 }
 
 .individual {
@@ -48,7 +52,8 @@
 .individual-container .individual-box {
   display: grid;
   flex-direction: row;
-  grid-template-columns: auto 1fr; /* icono junto */
+  grid-template-columns: auto 1fr;
+  /* icono junto */
 
 }
 
@@ -62,7 +67,7 @@
   color: var(--main-color);
   margin-bottom: 1rem;
   margin-right: 4rem;
-  }
+}
 
 .individual-box p {
   font-size: 1.5rem;
@@ -74,9 +79,50 @@
   flex-direction: row;
   z-index: 2;
 }
+
 .opcionesindividual .atencionMedica-box {
   margin: 100px 70px 100px 100px;
 }
+
 .opcionesindividual .atencionMedica-box p {
   font-size: 2rem;
+}
+
+
+@media (max-width: 1024px) {
+  .bike-img-estatico {
+    width: 60vw;
+    height: 60vh;
+  }
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 480px) {
+  .bike-img-estatico {
+    display: none;
+  }
+  .opcionesindividual {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    justify-content: left;
+  }
+  .opcionesindividual .atencionMedica-box {
+    margin: 20px 20px 20px 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .individual h2 {
+    font-size: 2.5rem;
+  }
+}
+
+
+.bike-img-estatico {
+  width: 60vw;
+  height: 60vh;
 }

@@ -100,3 +100,47 @@ h4 {
   margin-top: 0.8%;
   text-align: left;
 }
+
+
+@media (max-width: 1024px) {
+  .viaje-img-estatico {
+    z-index: 1;
+    left: 25%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    height: 80vh;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 480px) {
+  .bike-img-estatico {
+    display: none;
+  }
+  .opcionesindividual {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    justify-content: left;
+  }
+  .opcionesindividual .atencionMedica-box {
+    margin: 20px 20px 20px 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .individual h2 {
+    font-size: 2.5rem;
+  }
+}
+
+
+.bike-img-estatico {
+  width: 60vw;
+  height: 60vh;
+}

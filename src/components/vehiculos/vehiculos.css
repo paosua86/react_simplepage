@@ -1,10 +1,13 @@
 .car-img-estatico {
   margin-left: 100px;
   position: absolute;
-  width: fit-content;
   z-index: 1;
-  top: 0;
-  left: 0;
+  left: 10%;
+  top: 20%;
+  transform: translate(-60%, -40%);
+  width: 80vw;
+  height: 80vh;
+  overflow: hidden;
 }
 
 .vehiculos h2 {
@@ -61,7 +64,7 @@ h4 {
   margin-top: 20px;
 }
 
-.vehiculos-container-nosotros p{
+.vehiculos-container-nosotros p {
   display: grid;
   flex-direction: column;
   justify-content: left;
@@ -88,14 +91,36 @@ h4 {
   margin-left: 8%;
   margin-right: 10px;
 
-  }
+}
 
-  .vehiculos-box span {
-    font-weight: 300;
-    }
+.vehiculos-box span {
+  font-weight: 300;
+}
 
 .vehiculos-box p {
   font-size: 1.5rem;
   margin-top: 0.8%;
   text-align: left;
 }
+
+
+
+@media (max-width: 1024px) {
+  .car-img-estatico {
+    width: 80vw;
+    height: 30vh;
+    left: 5%;
+    top: 5%;
+    transform: translate(-80%, -0%);
+  }
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 480px) {
+  .car-img-estatico {
+    display: none;
+  }
+
+}
+

@@ -19,6 +19,9 @@ import AtencionMedica from './components/atencionMedica/atencionMedica';
 import AccidentesPersonales from './components/accidentesPersonales/accidentesPersonales';
 import Pymes from './components/pymes/pymes';
 import Corporativo from './components/corporativo/corporativo';
+import Masivo from './components/masivo/masivo';
+import Innovadores from './components/innovadores/innovadores';
+import Fianzas from './components/fianzas/fianzas';
 
 function App() {
   return (
@@ -78,6 +81,21 @@ function App() {
           </>} />
           <Route path="/hogar" element={<>
             <Hogar />
+            <Formulario />
+            <Cambio />
+          </>} />
+          <Route path="/masivo" element={<>
+            <Masivo />
+            <Formulario />
+            <Cambio />
+          </>} />
+          <Route path="/innovadores" element={<>
+            <Innovadores />
+            <Formulario />
+            <Cambio />
+          </>} />
+          <Route path="/fianzas" element={<>
+            <Fianzas />
             <Formulario />
             <Cambio />
           </>} />

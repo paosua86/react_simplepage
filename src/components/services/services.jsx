@@ -70,19 +70,19 @@ class Services extends React.Component {
               <i className="bx bx-home-smile"></i>
               <h3>Innovadores</h3>
               <p>Los seguros más vanguardistas al alcance de tu mano</p>
-              <a className="service_layer" href="/corporativo#Innovadores">Conoce más</a>
+              <a className="service_layer" href="/innovadores">Conoce más</a>
             </div>
             <div className="services-box-spec">
               <i className="bx bx-home-smile"></i>
               <h3>Masivos</h3>
               <p>Programas de Fidelización para su empresa, clientes y proveedores a través de canales masivos</p>
-              <a className="service_layer" href="/corporativo#Masivos">Conoce más</a>
+              <a className="service_layer" href="/masivo">Conoce más</a>
             </div>
             <div className="services-box-spec">
               <i className="bx bx-home-smile"></i>
               <h3>Fianzas</h3>
               <p>Respaldo, seguridad y confianza para la ejecución de tus contratos</p>
-              <a className="service_layer" href="/corporativo#Fianzas">Conoce más</a>
+              <a className="service_layer" href="/fianzas">Conoce más</a>
             </div>
           </div>
         </div>

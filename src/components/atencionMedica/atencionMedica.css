@@ -1,10 +1,11 @@
 .fam-img-estatico {
-  margin-left: 100px;
-  position:relative;
-  width: fit-content;
   z-index: 1;
-  top: 0;
-  left: 0;
+  left: 20%;
+  top: 95%;
+  transform: translate(-60%, -60%);
+  width: 70vw;
+  height: 80vh;
+  overflow: hidden;
 }
 
 .atencionMedica h2 {
@@ -21,7 +22,8 @@
   text-align: center;
   font-size: 3.5rem;
   font-weight: 200;
-  padding-top: 200px; /* ajusta el valor de acuerdo al tamaño de tu navbar */
+  padding-top: 200px;
+  /* ajusta el valor de acuerdo al tamaño de tu navbar */
   margin-top: -100px;
 }
 
@@ -76,6 +78,7 @@ h4 {
 .atencionMedica-container-nosotros {
   max-width: 70%;
 }
+
 .atencionMedica-container-nosotros p {
   display: grid;
   flex-direction: column;

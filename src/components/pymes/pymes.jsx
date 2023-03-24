@@ -113,7 +113,7 @@ class Pymes extends React.Component {
         <div>
           <h3 className="heading">Beneficios de tu seguro PYMES:</h3>
           <p class="description-pymes" data-aos="fade-left">
-            Cubre los principales riesgos como incendio, robo, equipo electrónico, fidelidad, rotura de maquinaria,
+            Cubre los principales riesgos como incendio, robo, equipo electrónico, fidelidad, rotura de maquinaria,<br></br>
             responsabilidad civil, y además obtienes estos beneficios extras sin costo:
           </p>
           <div className="pymes-container-beneficios">

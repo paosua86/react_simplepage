@@ -137,3 +137,11 @@ h4 {
 .corporativo-container-beneficios .corporativo-box i {
   margin: 40px 0 40px 0;
 }
+
+
+@media (max-width: 320px) {
+
+  .corporativo h2 {
+    font-size: 2.5rem;
+  }
+}

@@ -16,11 +16,10 @@ class AtencionMedica extends React.Component {
     return (
       <section className="atencionMedica" id="atencionMedica">
         <img data-aos="fade-right" className="fam-img-estatico" src="images/family.svg" alt="" />
-        <h2 data-aos="fade-up" className="heading">
-          SEGURO PARA ATENCIÓN MÉDICA Y VIDA
+        <h2 data-aos="fade-up" className="heading">ASISTENCIA MÉDICA
         </h2>
         <p class="description-service" data-aos="fade-left">
-        El seguro de Asistencia Médica ofrece a sus asegurados la tranquilidad de saber que están preparados para afrontar económicamente un posible accidente o enfermedad. Ofrecemos por medio de las principales aseguradoras del mercado toda una gama de servicios médicos, hospitalarios y complementarios, integrados a excelentes soluciones para una gran variedad de problemas de salud.
+          Cuidar de tu salud y la de tu familia con coberturas completas, respaldadas por las mejores redes de atenciones ambulatorias u hospitalarias a nivel nacional e internacional.
         </p>
         <div className="atencionMedica-container">
           <div class="atencionMedica-box">
@@ -58,26 +57,58 @@ class AtencionMedica extends React.Component {
             <p>Sostiene el pago de hipoteca de tu casa</p>
           </div>
         </div>
-        <h3 id="segurodevida" className="heading">ATENCIÓN MÉDICA</h3>
-        <p class="description-service" data-aos="fade-left">
-        Lorem ipsum dolor sit amet, consectetur adipisci elit,
-        </p>
+        <h4 id="segurodevida" className="heading">BENEFICIOS Y COBERTURAS</h4>
         <div className="atencionMedica-container-nosotros">
           <div className="atencionMedica-box">
             <i className="bx bx-check-circle"></i>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisci elit,</p>
+            <p>Cobertura para enfermedades y accidentes</p>
           </div>
           <div className="atencionMedica-box">
             <i className="bx bx-check-circle"></i>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisci elit,</p>
+            <p>Cobertura para preexistencias</p>
           </div>
           <div className="atencionMedica-box">
             <i className="bx bx-check-circle"></i>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisci elit,</p>
+            <p>Cobertura para maternidad</p>
           </div>
           <div className="atencionMedica-box">
             <i className="bx bx-check-circle"></i>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisci elit,</p>
+            <p>Sin límites de edad</p>
+          </div>
+          <div className="atencionMedica-box">
+            <i className="bx bx-check-circle"></i>
+            <p>Agilidad en reembolsos</p>
+          </div>
+          <div className="atencionMedica-box">
+            <i className="bx bx-check-circle"></i>
+            <p>Diferentes formas de pago</p>
+          </div>
+        </div>
+        <h4 id="segurodevida" className="heading">SERVICIOS COMPLEMENTARIOS</h4>
+        <div className="atencionMedica-container-nosotros">
+          <div className="atencionMedica-box">
+            <i className="bx bx-check-circle"></i>
+            <p>Centros médicos ambulatorios sin aplicación de deducible o copago</p>
+          </div>
+          <div className="atencionMedica-box">
+            <i className="bx bx-check-circle"></i>
+            <p>Médico a domicilio</p>
+          </div>
+          <div className="atencionMedica-box">
+            <i className="bx bx-check-circle"></i>
+            <p>Farmacia a domicilio</p>
+          </div>
+          <div className="atencionMedica-box">
+            <i className="bx bx-check-circle"></i>
+            <p>Video-consultas</p>
+          </div>
+          <div className="atencionMedica-box">
+            <i className="bx bx-check-circle"></i>
+            <p>Asistencia en viaje</p>
+          </div>
+          <div className="atencionMedica-box">
+            <i className="bx bx-check-circle"></i>
+            <p>Servicio de ambulancia</p>
           </div>
         </div>
         <h3 className="heading" id="gastosmedicosmayores">GASTOS MÉDICOS MAYORES</h3>

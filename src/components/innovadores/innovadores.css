@@ -1,4 +1,4 @@
-.inha-img-estatico {
+.ind-img-estatico {
   margin-left: 100px;
   position: absolute;
   width: fit-content;
@@ -7,21 +7,24 @@
   right: 0;
 }
 
-.pymes h2 {
+.innovadores h2 {
   margin-top: 10%;
   margin-bottom: 6rem;
   text-align: center;
   font-size: 4rem;
   font-weight: 200;
 }
+.innovadores a {
+  z-index: 2;
+}
 
-.pymes h3 {
-  margin-top: 5%;
+.innovadores h3 {
+
   margin-bottom: 7%;
   text-align: center;
   font-size: 3.5rem;
   font-weight: 200;
-  padding-top: 100px; /* ajusta el valor de acuerdo al tamaño de tu navbar */
+  padding-top: 200px; /* ajusta el valor de acuerdo al tamaño de tu navbar */
   margin-top: -100px;
 }
 
@@ -32,7 +35,7 @@ h4 {
   margin: 20px 10px 10px 0;
 }
 
-.pymes {
+.innovadores {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,21 +43,22 @@ h4 {
   text-align: center;
 }
 
-.pymes p {
-  display: grid;
-  place-items: center;
+.innovadores p {
+  display: flex;
   font-size: 1.6rem;
   font-weight: 100;
   margin-bottom: 3%;
+  text-align: center;
+  align-items: center;
 }
 
-.pymes .description-pymes p {
+.innovadores .description-innovadores p {
   max-width: 60%;
   justify-content: center;
 
 }
 
-.pymes-container-nosotros {
+.innovadores-container-nosotros {
   display: flex;
   align-items: center;
   align-content: space-evenly;
@@ -64,7 +68,7 @@ h4 {
   flex-wrap: wrap;
 }
 
-.pymes-container-nosotros .pymes-box {
+.innovadores-container-nosotros .innovadores-box {
   display: flex;
   align-items: center;
   align-content: space-evenly;
@@ -73,11 +77,11 @@ h4 {
   margin-top: 20px;
 }
 
-.pymes-container-nosotros {
+.innovadores-container-nosotros {
   max-width: 70%;
 }
 
-.pymes-container-nosotros p {
+.innovadores-container-nosotros p {
   display: grid;
   flex-direction: column;
   justify-content: left;
@@ -85,20 +89,20 @@ h4 {
   margin-left: 30px;
 }
 
-.pymes-container .pymes-box {
+.innovadores-container .innovadores-box {
   display: flex;
   flex-direction: row;
 }
 
-.pymes-negocios .pymes-box:hover,
-.pymes-container-motivos .pymes-box:hover,
-.pymes-container-beneficios .pymes-box:hover {
+.innovadores-negocios .innovadores-box:hover,
+.innovadores-container-motivos .innovadores-box:hover,
+.innovadores-container-beneficios .innovadores-box:hover {
   color: var(--secondary-color);
 }
 
 
 
-.pymes-box i {
+.innovadores-box i {
   font-size: 3.5rem;
   color: var(--main-color);
   margin-left: 8%;
@@ -106,7 +110,7 @@ h4 {
 }
 
 
-.pymes-container-motivos {
+.innovadores-container-motivos {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -114,40 +118,22 @@ h4 {
 
 }
 
-.pymes-container-motivos .pymes-box {
+.innovadores-container-motivos .innovadores-box {
   max-width: 100px;
   margin: 40px auto 40px auto;
 }
 
-
-.pymes-container-beneficios {
+.innovadores-container-beneficios {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
-
-.pymes-container-beneficios .pymes-box {
+.innovadores-container-beneficios .innovadores-box {
   max-width: 100px;
   margin: 40px auto 40px auto;
 }
-.pymes-container-beneficios .pymes-box i {
+.innovadores-container-beneficios .innovadores-box i {
   margin: 40px 0 40px 0;
-}
-
-
-
-@media (max-width: 1024px) {
-  .bike-img-estatico {
-    width: 60vw;
-    height: 60vh;
-  }
-}
-
-
-@media (max-width: 320px) {
-  .inha-img-estatico {
-    display: none;
-  }
 }
