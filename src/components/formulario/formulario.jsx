@@ -16,7 +16,7 @@ class Formulario extends React.Component {
     return (
       <section className="contact" id="contact">
         <h2 data-aos="fade-right" className="heading">
-          Contáctanos y Cotiza
+          Contáctanos
         </h2>
         <p data-aos="fade-left">
           A nuestro equipo le encantará atender tu solicitud

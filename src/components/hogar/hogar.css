@@ -52,10 +52,12 @@
   padding-left: 30rem;
   padding-right: 30rem;
   padding-bottom: 10rem;
+
 }
 .hogar-container .hogar-box {
   display: flex;
   flex-direction: row;
+  text-align: left;
 }
 
 .hogar-container .hogar-box:hover {

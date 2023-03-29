@@ -23,7 +23,7 @@ class Testimonios extends React.Component {
               <div>
                 <p className="tweet-username">Roberto Barriga</p>
                 <p className="tweet-handle">Vehículos</p>
-                <a href="https://www.facebook.com/roberto.barriga.520?mibextid=ZbWKwL">
+                <a href="https://www.facebook.com/roberto.barriga.520?mibextid=ZbWKwL" target="_blank" without rel="noreferrer">
                   <i class="bx bxl-facebook-circle"></i>
                 </a>
               </div>
@@ -41,7 +41,7 @@ class Testimonios extends React.Component {
               <div>
                 <p className="tweet-username">David Suarez</p>
                 <p className="tweet-handle">Vehículos</p>
-                <a href="https://www.facebook.com/profile.php?id=100013553477889">
+                <a href="https://www.facebook.com/profile.php?id=100013553477889" target="_blank" without rel="noreferrer">
                   <i class="bx bxl-facebook-circle"></i>
                 </a>
               </div>
@@ -59,7 +59,7 @@ class Testimonios extends React.Component {
               <div>
                 <p className="tweet-username">Daniela Suarez Bonilla</p>
                 <p className="tweet-handle">Asistencia Medica</p>
-                <a href="https://www.facebook.com/dany.suarez.31149">
+                <a href="https://www.facebook.com/dany.suarez.31149" target="_blank" without rel="noreferrer">
                   <i class="bx bxl-facebook-circle"></i>
                 </a>
               </div>
@@ -78,7 +78,7 @@ class Testimonios extends React.Component {
               <div>
                 <p className="tweet-username">ZRestaurants</p>
                 <p className="tweet-handle">Ramos Generales</p>
-                <a href="https://www.facebook.com/zrestaurantes">
+                <a href="https://www.facebook.com/zrestaurantes" target="_blank" without rel="noreferrer">
                   <i class="bx bxl-facebook-circle"></i>
                 </a>
               </div>
@@ -96,7 +96,7 @@ class Testimonios extends React.Component {
               <div>
                 <p className="tweet-username">Lourdes Jarrin</p>
                 <p className="tweet-handle">Casa Habitacion</p>
-                <a href="https://www.facebook.com/lourdes.jarrin.3?mibextid=ZbWKwL">
+                <a href="https://www.facebook.com/lourdes.jarrin.3?mibextid=ZbWKwL" target="_blank" without rel="noreferrer">
                   <i class="bx bxl-facebook-circle"></i>
                 </a>
               </div>
@@ -112,7 +112,7 @@ class Testimonios extends React.Component {
               <div>
                 <p className="tweet-username">Los Choris - Mauricio Delgado</p>
                 <p className="tweet-handle">Ramos Generales</p>
-                <a href="https://www.facebook.com/loschorisec/">
+                <a href="https://www.facebook.com/loschorisec/" target="_blank" without rel="noreferrer">
                   <i class="bx bxl-facebook-circle"></i>
                 </a>
               </div>
@@ -129,7 +129,7 @@ class Testimonios extends React.Component {
               <div>
                 <p className="tweet-username">Roberto Barriga</p>
                 <p className="tweet-handle">Vehículos</p>
-                <a href="https://www.facebook.com/roberto.barriga.520?mibextid=ZbWKwL">
+                <a href="https://www.facebook.com/roberto.barriga.520?mibextid=ZbWKwL" target="_blank" without rel="noreferrer">
                   <i class="bx bxl-facebook-circle"></i>
                 </a>
               </div>
@@ -147,7 +147,7 @@ class Testimonios extends React.Component {
               <div>
                 <p className="tweet-username">David Suarez</p>
                 <p className="tweet-handle">Vehículos</p>
-                <a href="https://www.facebook.com/profile.php?id=100013553477889">
+                <a href="https://www.facebook.com/profile.php?id=100013553477889" target="_blank" without rel="noreferrer">
                   <i class="bx bxl-facebook-circle"></i>
                 </a>
               </div>
@@ -165,7 +165,7 @@ class Testimonios extends React.Component {
               <div>
                 <p className="tweet-username">Daniela Suarez Bonilla</p>
                 <p className="tweet-handle">Asistencia Medica</p>
-                <a href="https://www.facebook.com/dany.suarez.31149">
+                <a href="https://www.facebook.com/dany.suarez.31149" target="_blank" without rel="noreferrer">
                   <i class="bx bxl-facebook-circle"></i>
                 </a>
               </div>
@@ -184,7 +184,7 @@ class Testimonios extends React.Component {
               <div>
                 <p className="tweet-username">ZRestaurants</p>
                 <p className="tweet-handle">Ramos Generales</p>
-                <a href="https://www.facebook.com/zrestaurantes">
+                <a href="https://www.facebook.com/zrestaurantes" target="_blank" without rel="noreferrer">
                   <i class="bx bxl-facebook-circle"></i>
                 </a>
               </div>
@@ -202,7 +202,7 @@ class Testimonios extends React.Component {
               <div>
                 <p className="tweet-username">Lourdes Jarrin</p>
                 <p className="tweet-handle">Casa Habitacion</p>
-                <a href="https://www.facebook.com/lourdes.jarrin.3?mibextid=ZbWKwL">
+                <a href="https://www.facebook.com/lourdes.jarrin.3?mibextid=ZbWKwL" target="_blank" without rel="noreferrer">
                   <i class="bx bxl-facebook-circle"></i>
                 </a>
               </div>
@@ -218,7 +218,7 @@ class Testimonios extends React.Component {
               <div>
                 <p className="tweet-username">Los Choris - Mauricio Delgado</p>
                 <p className="tweet-handle">Ramos Generales</p>
-                <a href="https://www.facebook.com/loschorisec/">
+                <a href="https://www.facebook.com/loschorisec/" target="_blank" without rel="noreferrer">
                   <i class="bx bxl-facebook-circle"></i>
                 </a>
               </div>

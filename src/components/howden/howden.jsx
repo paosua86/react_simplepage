@@ -15,7 +15,7 @@ class Howden extends React.Component {
   render() {
     return (
       <section className="howden" id="howden">
-        <h2 data-aos="fade-right" className="heading"><a href='https://www.howdengroup.com/' >Howden</a></h2>
+        <h2 data-aos="fade-right" className="heading"><a href='https://www.howdengroup.com/' target="_blank" without rel="noreferrer" >Howden</a></h2>
         <h3 data-aos="fade-left">Formamos parte de la Red Internacional Howden One</h3>
         <p class="howden_p" data-aos="fade-left">Howden es el corredor de seguros internacional más grande del mundo fuera de los Estados Unidos. Ofrece una gama de soluciones de seguros especializadas a clientes de todo el mundo.</p>
         <div className="howden-container-one">
