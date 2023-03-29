@@ -16,19 +16,13 @@
 }
 
 .viajes h3 {
-  margin-top: 5%;
-  margin-bottom: 7%;
+  padding: 10rem 00rem 10rem 0rem;
   text-align: center;
   font-size: 3.5rem;
   font-weight: 200;
 }
 
-h4 {
-  text-align: left;
-  font-size: 2.5rem;
-  font-weight: 200;
-  margin: 20px 10px 10px 0;
-}
+
 
 .viajes {
   display: flex;
@@ -75,6 +69,10 @@ h4 {
   margin: 30px 0 0 0;
 }
 
+.viajes-container-nosotros .viajes-box h4{
+  font-size: 2rem;
+}
+
 .viajes-container .viajes-box:hover {
   color: var(--secondary-color);
 }
@@ -101,17 +99,20 @@ h4 {
   text-align: left;
 }
 
-
-@media (max-width: 1024px) {
+@media (max-width: 2000px) {
   .viaje-img-estatico {
     z-index: 1;
-    left: 25%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 80vw;
-    height: 80vh;
+    left: 0%;
+    top: 10%;
+    transform: translate(-40%, -40%);
+    width: 50vw;
+    height: 50vh;
     overflow: hidden;
   }
+}
+
+@media (max-width: 1024px) {
+
 }
 
 @media (max-width: 768px) {

@@ -19,9 +19,9 @@ import AtencionMedica from './components/atencionMedica/atencionMedica';
 import AccidentesPersonales from './components/accidentesPersonales/accidentesPersonales';
 import Pymes from './components/pymes/pymes';
 import Corporativo from './components/corporativo/corporativo';
-import Masivo from './components/masivo/masivo';
 import Innovadores from './components/innovadores/innovadores';
 import Fianzas from './components/fianzas/fianzas';
+import Howden from './components/howden/howden';
 
 function App() {
   return (
@@ -37,75 +37,46 @@ function App() {
             <ClientesAso />
             <Cultura />
             <Services />
-            <Cambio />
-            <Formulario />
           </>} />
           <Route path="/individuales" element={<>
             <Individual />
-            <Formulario />
-            <Cambio />
           </>} />
           <Route path="/pymes" element={<>
             <Pymes />
-            <Formulario />
-            <Cambio />
           </>} />
           <Route path="/corporativo" element={<>
             <Corporativo />
-            <Formulario />
-            <Cambio />
           </>} />
           <Route path="/howden" element={<>
-            <Formulario />
-            <Cambio />
           </>} />
           <Route path="/vehiculo" element={<>
             <Vehiculos />
-            <Formulario />
-            <Cambio />
           </>} />
           <Route path="/atencionmedica" element={<>
             <AtencionMedica />
-            <Formulario />
-            <Cambio />
           </>} />
           <Route path="/accidentespersonales" element={<>
             <AccidentesPersonales />
-            <Formulario />
-            <Cambio />
           </>} />
           <Route path="/viajes" element={<>
             <Viajes />
-            <Formulario />
-            <Cambio />
           </>} />
           <Route path="/hogar" element={<>
             <Hogar />
-            <Formulario />
-            <Cambio />
-          </>} />
-          <Route path="/masivo" element={<>
-            <Masivo />
-            <Formulario />
-            <Cambio />
           </>} />
           <Route path="/innovadores" element={<>
             <Innovadores />
-            <Formulario />
-            <Cambio />
           </>} />
           <Route path="/fianzas" element={<>
             <Fianzas />
-            <Formulario />
-            <Cambio />
           </>} />
-          <Route path="/howden" element={<>
-
-            <Formulario />
-            <Cambio />
+          <Route path="/howdenone" element={<>
+            <Howden />
           </>} />
         </Routes>
 
+        <Formulario />
+        <Cambio />
         <Footer />
       </Router>
     </div>

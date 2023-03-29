@@ -21,10 +21,10 @@ class Individual extends React.Component {
 
         <div class="opcionesindividual">
             <div class="atencionMedica-box">
-              <a href="/atencionmedica"><p>Seguro de vida</p></a>
+              <a href="/atencionmedica#segurodevida"><p>Seguro de vida</p></a>
             </div>
             <div class="atencionMedica-box">
-              <a href="/atencionmedica/"><p>Gastos Médicos Mayores</p></a>
+              <a href="/atencionmedica#gastosmedicosmayores"><p>Gastos Médicos Mayores</p></a>
             </div>
             <div class="atencionMedica-box">
               <a href="/viajes"><p>Seguro de viajes</p></a>

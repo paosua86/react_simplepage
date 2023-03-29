@@ -74,12 +74,6 @@ class Services extends React.Component {
             </div>
             <div className="services-box-spec">
               <i className="bx bx-home-smile"></i>
-              <h3>Masivos</h3>
-              <p>Programas de Fidelización para su empresa, clientes y proveedores a través de canales masivos</p>
-              <a className="service_layer" href="/masivo">Conoce más</a>
-            </div>
-            <div className="services-box-spec">
-              <i className="bx bx-home-smile"></i>
               <h3>Fianzas</h3>
               <p>Respaldo, seguridad y confianza para la ejecución de tus contratos</p>
               <a className="service_layer" href="/fianzas">Conoce más</a>

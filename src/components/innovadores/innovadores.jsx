@@ -19,8 +19,6 @@ class Innovadores extends React.Component {
         <h2 data-aos="fade-up" className="heading">
           SEGUROS INNOVADORES
         </h2>
-
-
         <p class="description-innovadores" data-aos="fade-left">Los seguros más vanguardistas al alcance de tu mano</p>
         <div className="innovadores-innov">
           <div className="innovadores-box">

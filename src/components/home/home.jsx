@@ -18,8 +18,8 @@ class Home extends React.Component {
       <section className="home" id="home">
         <div className="home-content">
           <h1 data-aos="fade-up">CUIDANDO LO QUE AMAS<br />HOY, MAÑANA Y SIEMPRE</h1>
-          <p data-aos="fade-left">Productos Innovadores. Presencia Regional. Operación Local</p>
-          <a data-aos="zoom-in-up" href="#contact" className="btn_initial">Cotiza tu seguro</a>
+          <p data-aos="fade-left">Seguros Innovadores. Presencia Regional. Operación Local</p>
+          <a href="#contact" className="btn_initial">Cotiza tu seguro</a>
         </div>
         <div className="view">
           <img className="bike-img" src="images/bike.svg" alt="" />

@@ -2,17 +2,18 @@
     background: var(--second-bg-color);
     width: 100%;
     overflow-x: hidden;
-
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .contact h2 {
     padding-top: 100px;
-    /* ajusta el valor de acuerdo al tamaño de tu navbar */
     margin-bottom: 4rem;
     text-align: center;
     font-size: 4rem;
     font-weight: 70rem;
-
 }
 
 .contact p {
@@ -23,17 +24,18 @@
 }
 
 .contact form {
-    max-width: 70rem;
-    margin: 1rem auto;
-    text-align: center;
-    margin-bottom: 3rem;
-
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 7rem;
 }
 
-.contact form .input-box {
-    justify-content: space-between;
-
+.contact form .partes {
+    max-width: 35rem;
 }
+
 
 .contact form .input-box input,
 .contact form textarea {
@@ -50,30 +52,8 @@
     resize: none;
 }
 
-.contact form .btn {
-    margin-top: 2rem;
-    cursor: pointer;
-}
-
-.contactandmap {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.contactandmap form {
-    order: 1;
-    flex-basis: calc(50% - 20px);
-    max-width: 400px;
-}
-
-.contactandmap .mapouter {
-    order: 2;
-    flex-basis: calc(50% - 20px);
-}
-
 .btn_contact {
+    cursor: pointer;
     display: inline-block;
     padding: 2rem 3rem;
     background: var(--main-color);
@@ -83,22 +63,71 @@
     color: var(--bg-color);
     font-weight: 300;
     transition: .5s ease;
-    margin-top: 5%;
 }
 
 .btn_contact:hover {
     box-shadow: none;
 }
 
-@media (min-width: 540px) {
-    .sm\:w-half {
-        width: 50%;
+.contact .gps_img {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem;
+}
+
+.car_mov_img {
+    max-width: 30rem;
+    display: flex;
+    justify-self: center;
+}
+
+.mapouter {
+    padding: 2rem;
+    background: white;
+    border-radius: 2rem;
+}
+
+
+.iframe1 {
+    border-radius: 2rem;
+    width: 900px;
+    height: 200px;
+}
+
+
+@media (max-width: 1024px) {
+    .contact form textarea {
+        width: 30rem;
+    }
+    .iframe1 {
+        border-radius: 2rem;
+        width: 768px;
+        height: 200px;
     }
 }
 
-.gmap_canvas {
-    overflow: hidden;
-    background: none !important;
-    height: 600px;
-    width: 400px;
+@media (max-width: 768px) {
+    .contact form {
+        flex-direction: column;
+    }
+    .contact form textarea {
+        width: 20rem;
+    }
+    .iframe1 {
+        border-radius: 2rem;
+        width: 480px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .iframe1 {
+        border-radius: 2rem;
+        width: 360px;
+        height: 200px;
+    }
 }

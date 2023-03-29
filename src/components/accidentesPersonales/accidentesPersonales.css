@@ -1,10 +1,13 @@
 .fam-img-estatico {
   margin-left: 100px;
-  position:absolute;
-  width: fit-content;
+  position: absolute;
   z-index: 1;
-  top: 0;
-  left: 0;
+  left: 10%;
+  top: 20%;
+  transform: translate(-60%, -40%);
+  width: 80vw;
+  height: 80vh;
+  overflow: hidden;
 }
 
 .accidentesPersonales h2 {
@@ -36,74 +39,29 @@ h4 {
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding-bottom: 3rem;
 }
 
-.accidentesPersonales p {
-  font-size: 1.6rem;
-  font-weight: 100;
-  margin-bottom: 3%;
-  text-align: center;
+.accidentesPersonales-container-nosotros {
+  max-width: 70%;
+  justify-content: left;
 
-}
-
-.accidentesPersonales .description-service p {
-  max-width: 80%;
-  justify-content: center;
-
-}
-
-.accidentesPersonales-container {
-  display: flex;
-  align-items: center;
-  align-content: space-evenly;
-  flex-direction: row;
-  margin-top: 20px;
-  margin-bottom: 40px;
 }
 
 .accidentesPersonales-container-nosotros .accidentesPersonales-box {
   display: flex;
   align-items: center;
-  align-content: space-evenly;
+  justify-content: left;
   flex-direction: row;
   text-align: left;
   margin-top: 20px;
+
 }
 
-.accidentesPersonales-container-nosotros {
-  max-width: 70%;
-}
-.accidentesPersonales-container-nosotros p {
-  display: grid;
-  flex-direction: column;
-  justify-content: left;
-  text-align: left;
-  margin-left: 30px;
-}
-
-.accidentesPersonales-container .accidentesPersonales-box {
-  display: flex;
-  flex-direction: row;
-}
-
-.accidentesPersonales-container .accidentesPersonales-box:hover {
-  color: var(--secondary-color);
-}
-
-.accidentesPersonales-container-nosotros .accidentesPersonales-box:hover {
-  color: var(--secondary-color);
-}
-
-.accidentesPersonales-box i {
+.accidentesPersonales-container-nosotros .accidentesPersonales-box i {
   font-size: 3.5rem;
   color: var(--main-color);
-  margin-left: 8%;
-  margin-right: 10px;
-
-}
-
-.accidentesPersonales-box span {
-  font-weight: 300;
+  margin-right: 2rem;
 }
 
 .accidentesPersonales-box p {
@@ -113,3 +71,19 @@ h4 {
 }
 
 
+
+
+
+@media (max-width: 1024px) {
+  .fam-img-estatico {
+    width: 80vw;
+    height: 30vh;
+    left: 5%;
+    top: 5%;
+    transform: translate(-80%, -0%);
+  }
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 480px) {}

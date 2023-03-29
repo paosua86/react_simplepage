@@ -14,16 +14,12 @@
   font-size: 4rem;
   font-weight: 200;
 }
-.fianzas a {
-  z-index: 2;
-}
 
 .fianzas {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  text-align: center;
+
 }
 
 .fianzas p {
@@ -35,18 +31,17 @@
   align-items: center;
 }
 
-.fianzas .description-fianzas p {
-  max-width: 60%;
-  justify-content: center;
+.description-fianzas .fianzas-box p{
+  justify-content: left;
 
 }
 
-
-
-
-.fianzas-container .fianzas-box {
+.fianzas .fianzas-box {
   display: flex;
   flex-direction: row;
+  align-items: left;
+  justify-content: left;
+  padding: 3rem;
 }
 
 .fianzas-negocios .fianzas-box:hover,
@@ -65,30 +60,19 @@
 }
 
 
-.fianzas-container-motivos {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 700px;
+
+
+
+@media (max-width: 1024px) {
+
 
 }
 
-.fianzas-container-motivos .fianzas-box {
-  max-width: 100px;
-  margin: 40px auto 40px auto;
+@media (max-width: 768px) {
+
 }
 
-.fianzas-container-beneficios {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
+@media (max-width: 480px) {
 
-.fianzas-container-beneficios .fianzas-box {
-  max-width: 100px;
-  margin: 40px auto 40px auto;
-}
-.fianzas-container-beneficios .fianzas-box i {
-  margin: 40px 0 40px 0;
+
 }

@@ -1,10 +1,13 @@
 .ind-img-estatico {
   margin-left: 100px;
   position: absolute;
-  width: fit-content;
   z-index: 1;
-  top: 0;
-  right: 0;
+  left: 10%;
+  top: 20%;
+  transform: translate(-60%, -40%);
+  width: 80vw;
+  height: 80vh;
+  overflow: hidden;
 }
 
 .innovadores h2 {
@@ -28,13 +31,6 @@
   margin-top: -100px;
 }
 
-h4 {
-  text-align: left;
-  font-size: 2.5rem;
-  font-weight: 200;
-  margin: 20px 10px 10px 0;
-}
-
 .innovadores {
   display: flex;
   flex-direction: column;
@@ -44,12 +40,11 @@ h4 {
 }
 
 .innovadores p {
-  display: flex;
   font-size: 1.6rem;
   font-weight: 100;
   margin-bottom: 3%;
-  text-align: center;
-  align-items: center;
+  text-align: left;
+
 }
 
 .innovadores .description-innovadores p {
@@ -58,82 +53,52 @@ h4 {
 
 }
 
-.innovadores-container-nosotros {
-  display: flex;
-  align-items: center;
-  align-content: space-evenly;
-  flex-direction: column;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  flex-wrap: wrap;
-}
-
-.innovadores-container-nosotros .innovadores-box {
-  display: flex;
-  align-items: center;
-  align-content: space-evenly;
-  flex-direction: row;
-  text-align: left;
-  margin-top: 20px;
-}
-
-.innovadores-container-nosotros {
-  max-width: 70%;
-}
-
-.innovadores-container-nosotros p {
-  display: grid;
-  flex-direction: column;
-  justify-content: left;
-  text-align: left;
-  margin-left: 30px;
-}
-
-.innovadores-container .innovadores-box {
-  display: flex;
-  flex-direction: row;
-}
-
-.innovadores-negocios .innovadores-box:hover,
-.innovadores-container-motivos .innovadores-box:hover,
-.innovadores-container-beneficios .innovadores-box:hover {
-  color: var(--secondary-color);
+.innovadores-innov {
+  padding: 5rem 12rem 5rem 12rem;
 }
 
 
 
-.innovadores-box i {
-  font-size: 3.5rem;
-  color: var(--main-color);
-  margin-left: 8%;
-  margin-right: 10px;
+@media (max-width: 1024px) {
+  .ind-img-estatico {
+    margin-left: 100px;
+    position: absolute;
+    z-index: 1;
+    left: 10%;
+    top: 20%;
+    transform: translate(-60%, -40%);
+    width: 50vw;
+    height: 50vh;
+    overflow: hidden;
+  }
+
 }
 
-
-.innovadores-container-motivos {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 700px;
-
+@media (max-width: 768px) {
+  .ind-img-estatico {
+    margin-left: 100px;
+    position: absolute;
+    z-index: 1;
+    left: 10%;
+    top: 20%;
+    transform: translate(-60%, -40%);
+    width: 40vw;
+    height: 40vh;
+    overflow: hidden;
+  }
 }
 
-.innovadores-container-motivos .innovadores-box {
-  max-width: 100px;
-  margin: 40px auto 40px auto;
-}
+@media (max-width: 480px) {
+  .ind-img-estatico {
+    margin-left: 100px;
+    position: absolute;
+    z-index: 1;
+    left: 10%;
+    top: 20%;
+    transform: translate(-60%, -40%);
+    width: 30vw;
+    height: 30vh;
+    overflow: hidden;
+  }
 
-.innovadores-container-beneficios {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-
-.innovadores-container-beneficios .innovadores-box {
-  max-width: 100px;
-  margin: 40px auto 40px auto;
-}
-.innovadores-container-beneficios .innovadores-box i {
-  margin: 40px 0 40px 0;
 }

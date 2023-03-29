@@ -16,30 +16,17 @@ class AtencionMedica extends React.Component {
     return (
       <section className="atencionMedica" id="atencionMedica">
         <img data-aos="fade-right" className="fam-img-estatico" src="images/family.svg" alt="" />
-        <h2 data-aos="fade-up" className="heading">ASISTENCIA MÉDICA
+        <h2 data-aos="fade-up" className="heading_h2">ASISTENCIA MÉDICA
         </h2>
         <p class="description-service" data-aos="fade-left">
           Cuidar de tu salud y la de tu familia con coberturas completas, respaldadas por las mejores redes de atenciones ambulatorias u hospitalarias a nivel nacional e internacional.
         </p>
-        <div className="atencionMedica-container">
-          <div class="atencionMedica-box">
-            <i className="bx bx-check-circle"></i>
-            <a href="#segurodevida"><p>Seguro de vida</p></a>
-          </div>
-          <div class="atencionMedica-box">
-            <i className="bx bx-check-circle"></i>
-            <a href="#segurodevida"><p>Atención médica</p></a>
-          </div>
-          <div className="atencionMedica-box">
-            <i className="bx bx-check-circle"></i>
-            <a href="#gastosmedicosmayores"><p>Gastos Médicos Mayores</p></a>
-          </div>
-        </div>
-        <h3 id="segurodevida" className="heading">POR QUÉ UN SEGURO DE VIDA?</h3>
+
+        <h3 className="heading" id="segurodevida">POR QUÉ UN SEGURO DE VIDA?</h3>
         <p class="description-service" data-aos="fade-left">
           Persona prevenida, vale por dos
         </p>
-        <div className="atencionMedica-container-nosotros">
+        <div className="atencionMedica-container">
           <div className="atencionMedica-box">
             <i className="bx bx-check-circle"></i>
             <p>Sostiene el estilo de vida de tu familia</p>
@@ -58,7 +45,7 @@ class AtencionMedica extends React.Component {
           </div>
         </div>
         <h4 id="segurodevida" className="heading">BENEFICIOS Y COBERTURAS</h4>
-        <div className="atencionMedica-container-nosotros">
+        <div className="atencionMedica-container">
           <div className="atencionMedica-box">
             <i className="bx bx-check-circle"></i>
             <p>Cobertura para enfermedades y accidentes</p>
@@ -85,7 +72,7 @@ class AtencionMedica extends React.Component {
           </div>
         </div>
         <h4 id="segurodevida" className="heading">SERVICIOS COMPLEMENTARIOS</h4>
-        <div className="atencionMedica-container-nosotros">
+        <div className="atencionMedica-container">
           <div className="atencionMedica-box">
             <i className="bx bx-check-circle"></i>
             <p>Centros médicos ambulatorios sin aplicación de deducible o copago</p>

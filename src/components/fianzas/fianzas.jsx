@@ -15,7 +15,7 @@ class Fianzas extends React.Component {
   render() {
     return (
       <section className="fianzas" id="fianzas">
-        <img data-aos="fade-right" data-aos-once="true" className="ind-img-estatico" src="images/industry.svg" alt="" />
+        {/* <img data-aos="fade-right" data-aos-once="true" className="ind-img-estatico" src="images/industry.svg" alt="" /> */}
         <h2 data-aos="fade-up" className="heading">
           SEGUROS DE FIANZAS
         </h2>

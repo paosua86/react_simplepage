@@ -20,42 +20,48 @@ class AccidentesPersonales extends React.Component {
           SEGURO PARA ACCIDENTES PERSONALES
         </h2>
         <p class="description-service" data-aos="fade-left">
-        El seguro de accidentes se refiere a un tipo de cobertura cuya característica común es brindar un beneficio o compensación monetaria a la ocurrencia de un accidente cubierto en la póliza, entendiéndose como accidente a una lesión ocasionada por un agente externo de manera fortuita, imprevista.
+          Variedad de coberturas - 24 horas los 365 días del año en cualquier parte del mundo<br></br> - Precios asequibles - Menores limitaciones por el tipo de riesgo - Complemento a coberturas de Asistencia Médica
         </p>
-        <div className="accidentesPersonales-container">
-        <div className="accidentesPersonales-box">
-            <i className="bx bx-check-circle"></i>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisci elit</p>
-          </div>
-          <div className="accidentesPersonales-box">
-            <i className="bx bx-check-circle"></i>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisci elit</p>
-          </div>
-          <div className="accidentesPersonales-box">
-            <i className="bx bx-check-circle"></i>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisci elit</p>
-          </div>
-          <div className="accidentesPersonales-box">
-            <i className="bx bx-check-circle"></i>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisci elit</p>
-          </div>
-          </div>
+        <h3 data-aos="fade-up" className="heading_h3">Coberturas Principales</h3>
         <div className="accidentesPersonales-container-nosotros">
           <div className="accidentesPersonales-box">
             <i className="bx bx-check-circle"></i>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisci elit</p>
+            <p>Muerte accidental</p>
           </div>
           <div className="accidentesPersonales-box">
             <i className="bx bx-check-circle"></i>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisci elit</p>
+            <p>Invalidez total o permanente</p>
           </div>
           <div className="accidentesPersonales-box">
             <i className="bx bx-check-circle"></i>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisci elit</p>
+            <p>Gastos médicos por accidente</p>
           </div>
           <div className="accidentesPersonales-box">
             <i className="bx bx-check-circle"></i>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisci elit</p>
+            <p>Desmembración accidental</p>
+          </div>
+        </div>
+        <h3 data-aos="fade-up" className="heading_h3">Beneficios adicionales</h3>
+        <div className="accidentesPersonales-container-nosotros">
+          <div className="accidentesPersonales-box">
+            <i className="bx bx-check-circle"></i>
+            <p>Gastos de sepelio por muerte accidental</p>
+          </div>
+          <div className="accidentesPersonales-box">
+            <i className="bx bx-check-circle"></i>
+            <p>Renta diaria por hospitalización</p>
+          </div>
+          <div className="accidentesPersonales-box">
+            <i className="bx bx-check-circle"></i>
+            <p>Ambulancia</p>
+          </div>
+          <div className="accidentesPersonales-box">
+            <i className="bx bx-check-circle"></i>
+            <p>Crédito hospitalario en caso de accidentes</p>
+          </div>
+          <div className="accidentesPersonales-box">
+            <i className="bx bx-check-circle"></i>
+            <p>Red de proveedores donde podrá acceder a descuentos y precios preferenciales</p>
           </div>
         </div>
 

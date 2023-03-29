@@ -36,7 +36,6 @@
   font-size: 1.6rem;
   font-weight: 100;
   margin-bottom: 3%;
-
 }
 
 .hogar .description-service p {
@@ -45,8 +44,15 @@
 
 }
 
+.hogar-container-nosotros {
+  padding: 8rem;
+}
 
-
+.hogar-container {
+  padding-left: 30rem;
+  padding-right: 30rem;
+  padding-bottom: 10rem;
+}
 .hogar-container .hogar-box {
   display: flex;
   flex-direction: row;
@@ -68,13 +74,23 @@
 
 }
 
-.hogar-box span {
-  font-weight: 300;
+
+@media (max-width: 1024px) {
+  .hogar-container {
+    padding: 3rem;
+  }
+
 }
 
-.hogar-box p {
-  font-size: 1.5rem;
-  margin-top: 0.8%;
-  text-align: left;
+@media (max-width: 768px) {
+  .house-img-estatico {
+    width: 50vw;
+    height: 50vh;
+  }
+}
+
+@media (max-width: 480px) {
+
+
 }
 

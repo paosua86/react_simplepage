@@ -1,5 +1,5 @@
 .fam-img-estatico {
-  z-index: 1;
+  z-index: -1;
   left: 20%;
   top: 95%;
   transform: translate(-60%, -60%);
@@ -8,7 +8,7 @@
   overflow: hidden;
 }
 
-.atencionMedica h2 {
+.atencionMedica .heading_h2 {
   margin-top: 10%;
   margin-bottom: 6rem;
   text-align: center;
@@ -16,80 +16,41 @@
   font-weight: 200;
 }
 
-.atencionMedica h3 {
-  margin-top: 5%;
-  margin-bottom: 7%;
+.atencionMedica .heading {
+  padding: 10rem;
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 200;
-  padding-top: 200px;
-  /* ajusta el valor de acuerdo al tamaño de tu navbar */
-  margin-top: -100px;
 }
 
-h4 {
-  text-align: left;
-  font-size: 2.5rem;
-  font-weight: 200;
-  margin: 20px 10px 10px 0;
+.description-service {
+  font-size: 1.5rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-bottom: 5rem;
 }
-
 .atencionMedica {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.atencionMedica p {
-  font-size: 1.6rem;
-  font-weight: 100;
-  margin-bottom: 3%;
-  text-align: center;
-
-}
-
-.atencionMedica .description-service p {
-  max-width: 80%;
-  justify-content: center;
-
-}
-
-.atencionMedica-container {
-  display: flex;
-  align-items: center;
-  align-content: space-evenly;
-  flex-direction: row;
-  margin-top: 50px;
-  margin-bottom: 40px;
-  z-index: 2;
-}
-
-.atencionMedica-container-nosotros .atencionMedica-box {
-  display: flex;
-  align-items: center;
-  align-content: space-evenly;
-  flex-direction: row;
-  text-align: left;
-  margin-top: 20px;
-}
-
-.atencionMedica-container-nosotros {
-  max-width: 70%;
-}
-
-.atencionMedica-container-nosotros p {
-  display: grid;
-  flex-direction: column;
   justify-content: left;
-  text-align: left;
-  margin-left: 30px;
+  text-align: center;
 }
 
 .atencionMedica-container .atencionMedica-box {
   display: flex;
+  align-items: center;
   flex-direction: row;
+  text-align: left;
+  z-index: 2;
+}
+
+.atencionMedica-container p {
+  display: grid;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  padding: 2rem;
 }
 
 .atencionMedica-container .atencionMedica-box:hover {
@@ -103,17 +64,51 @@ h4 {
 .atencionMedica-box i {
   font-size: 3.5rem;
   color: var(--main-color);
-  margin-left: 8%;
-  margin-right: 10px;
 
 }
 
-.atencionMedica-box span {
-  font-weight: 300;
+.atencionMedica-container-nosotros {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: stretch;
+  padding: 0rem 10rem 10rem 10rem;
+}
+
+.atencionMedica-container-nosotros .atencionMedica-box {
+  padding-top: 5rem;
 }
 
 .atencionMedica-box p {
   font-size: 1.5rem;
-  margin-top: 0.8%;
   text-align: left;
+}
+
+@media (max-width: 2000px) {
+  .fam-img-estatico  {
+    width: 80vw;
+    height: 30vh;
+    left: 5%;
+    top: 5%;
+    transform: translate(-80%, -0%);
+  }
+}
+
+@media (max-width: 1240px) {
+  .fam-img-estatico  {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .atencionMedica-container-nosotros {
+    padding: 0rem 2rem 2rem 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .fam-img-estatico  {
+    display: none;
+  }
+
 }

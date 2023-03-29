@@ -1,12 +1,13 @@
 .bike-img-estatico {
-  left: 5%;
-  top: 5%;
-  transform: translate(-80%, -50%);
-  z-index: 1;
-  width: 80vw;
-  height: 80vh;
-  overflow: hidden;
+  margin-left: 100px;
   position: absolute;
+  z-index: 1;
+  left: 10%;
+  top: 10%;
+  transform: translate(-50%, -40%);
+  width: 90vw;
+  height: 90vh;
+  overflow: hidden;
 }
 
 .individual h2 {

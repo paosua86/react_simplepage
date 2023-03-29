@@ -58,19 +58,21 @@ class Nav extends React.Component {
             Reporta tu siniestro
           </a>
           <a
-            href="/howden"
-            className={activeLink === "/howden" ? "active" : ""}
+            href="/howdenone"
+            className={activeLink === "/howdenone" ? "active" : ""}
             onClick={this.handleClick}
           >
             Howden
           </a>
         </nav>
+        <a href="/">
         <img
           data-aos="fade-right"
           className="logo"
           src="images/logo-asegbrok.png"
           alt="Logo Asegbrok"
         />
+        </a>
       </header>
     );
   }
